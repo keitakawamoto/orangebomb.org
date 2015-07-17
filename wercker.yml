@@ -1,0 +1,22 @@
+box: debian
+build:
+  steps:
+    - script:
+        name: install git
+        code: |
+          apt-get update
+          apt-get -y install git
+    - arjen/hugo-build:
+        version: "0.14"
+        theme: orangebomb
+deploy:
+  steps:
+    - script:
+        name: install git
+        code: |
+          apt-get update
+          apt-get -y install git
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: orangebomb.org
+        basedir: public
