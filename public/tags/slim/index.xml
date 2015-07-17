@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slim on Orangebomb</title>
+    <link>http://localhost:1313/tags/slim/</link>
+    <description>Recent content in Slim on Orangebomb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 16 Jul 2015 23:00:37 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/slim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>デザイナーさん向け「こわくないSlim」という勉強会を開いた</title>
+      <link>http://localhost:1313/blog/2015/07/16/learn-slim/</link>
+      <pubDate>Thu, 16 Jul 2015 23:00:37 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/07/16/learn-slim/</guid>
+      <description>
+
+&lt;p&gt;社内のRailsサービスでERBを使っているのをSlimに置き換えることにしたので、デザイナーさん向けに&lt;code&gt;こわくないSlim&lt;/code&gt;という勉強会を開きました。&lt;/p&gt;
+
+&lt;p&gt;せっかくなので資料を公開しておきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;こわくないslim:6eb84bd2232a2a0790555a79a7ffb17e&#34;&gt;こわくないSlim&lt;/h2&gt;
+
+&lt;iframe src=&#34;http://www.storyboards.jp/widget/whc46s&#34; width=&#34;640&#34; height=&#34;480&#34; style=&#34;border: 1px solid;&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;code&gt;slimrb&lt;/code&gt;使って実演しながら、質疑応答含めて大体30分ぐらいで「こわくない」と言ってもらえるようになりました。&lt;/p&gt;
+
+&lt;p&gt;よければご利用ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goo.gl/uJU0cp&#34;&gt;スライドはこちら&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

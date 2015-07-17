@@ -1,0 +1,16 @@
+title        = "Orangebomb"
+baseurl      = "http://orangebomb.org"
+languageCode = "ja-jp"
+
+[author]
+  Name = "keita_kawamoto"
+  Bio  = [
+    "自己紹介"
+  ]
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:filename/"
+
+[params]
+  Twitter = "keita_kawamoto"
+  GitHub  = "keitakawamoto"
