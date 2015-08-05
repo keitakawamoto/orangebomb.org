@@ -18,5 +18,6 @@ deploy:
           apt-get -y install git
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
+        repo: keitakawamoto/keitakawamoto.github.io
         domain: blog.orangebomb.org
         basedir: public
