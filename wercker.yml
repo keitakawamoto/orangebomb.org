@@ -18,5 +18,5 @@ deploy:
           apt-get -y install git
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: orangebomb.org
+        domain: blog.orangebomb.org
         basedir: public
