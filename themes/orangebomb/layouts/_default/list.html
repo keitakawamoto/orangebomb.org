@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "header.html" . }}
-		{{ partial "nav.html" . }}
-		<article>
-			<header>
-				<h1><a>{{ .Title }}</a></h1>
-			</header>
-			<ul>
-				{{ range .Data.Pages }}
-				<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-				{{ end }}
-			</ul>
-		</article>
-	</body>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div class="container archive-list">
+      <article>
+        <ul>
+          {{ range .Data.Pages }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              <time><div class="list-day">{{ .Date.Format "2006-01-02" }}</div></time>
+            </li>
+          {{ end }}
+        </ul>
+      </article>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "analytics.html" . }}
+  </body>
 </html>
-

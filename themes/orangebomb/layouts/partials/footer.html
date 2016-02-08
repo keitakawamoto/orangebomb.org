@@ -1,3 +1,20 @@
-<footer>
-  <p>{{ .Site.Params.footer }}</p>
+<footer class="footer">
+  <div class="author"></div>
+  <p class="author-name"><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">@{{ .Site.Author.Name }}</a></p>
+  {{ range .Site.Author.Bio }}
+    <p>{{ . }}</p>
+  {{ end }}
+  <ul class="social">
+    <li><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://github.com/{{ .Site.Params.GitHub }}" target="_blank"><i class="fa fa-github"></i></a></li>
+    <li><a href="/index.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+  </ul>
+  <p class="copyright">
+    <small>&copy; {{ .Site.Author.Name }} <span class="">Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Designed by <a href="https://twitter.com/keita_kawamoto" target="_blank">&copy;keita_kawamoto</a></span></small>
+  </p>
 </footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/languages/go.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/languages/vim.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>

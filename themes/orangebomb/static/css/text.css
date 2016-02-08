@@ -1,18 +1,146 @@
+body {
+  font-family: "Helvetica", "sans-serif";
+  font-size: 1em;
+}
+
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fa {
+  font-size: 0.8em;
+}
+
+h1 a {
+  transition-duration: 0.3s;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color: inherit;
+  color: inherit;
 }
-h1 { font-size: 1.6em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.3em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1.1em; }
-ul {
-	padding-left: 1.2em;
+
+h1 {
+  font-size: 1.8em;
 }
-li > ul {
-	margin: 0;
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: .8em;
+}
+
+.post header > h1 {
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 130%;
+  margin: 50px 0 0;
+}
+
+@media screen and (max-width: 550px) {
+  .post header > h1 {
+    font-size: 1.6em;
+  }
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    font-size: 1.4em;
+  }
+}
+
+.post-inner h1 {
+  padding-bottom: 4px;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+}
+
+.post-inner h2 {
+  line-height: 130%;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+}
+
+.post-inner h3 {
+  line-height: 130%;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+}
+
+.container ul {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 550px) {
+  .container ul {
+    margin: 20px 0;
+  }
+}
+
+.container li {
+  margin: 3px 0 3px 20px;
+}
+
+code {
+  font-family: "Source Code Pro", "sans-serif";
+  font-size: 0.9em;
+}
+
+p code,
+li code {
+  padding: 1px 3px;
+  margin: 0 2px;
+  font-size: 0.8em;
+  border-radius: 4px;
+}
+
+.tag a {
+  font-size: 0.7em;
+  padding: 3px 5px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+
+.tag a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 0.8em;
+}
+
+.footer small {
+  font-size: 100%;
+}
+
+.author-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }

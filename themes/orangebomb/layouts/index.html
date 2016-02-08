@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    {{ $pagination := 7 }}
+    <div class="container">
+      <div class="posts">
+        {{ range first $pagination .Data.Pages }}
+        {{ partial "content.html" . }}
+        {{ end }}
+        <a href="/post" class="archives">Archives</a>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "analytics.html" . }}
+  </body>
+</html>

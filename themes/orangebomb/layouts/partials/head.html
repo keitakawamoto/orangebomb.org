@@ -1,14 +1,30 @@
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> {{ .Title }} &middot; {{ .Site.Title }} </title>
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/reset.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/text.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/color.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/layout.css">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}/apple-touch-icon-144-precomposed.png">
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico">
-	<!-- RSS -->
-	<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="{{ .Site.Author.Name }}">
+  {{ if eq .URL "/" }}
+    <title>{{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  {{ end }}
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="http://blog.monochromegane.com/images/ogp.png">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro' type='text/css'>
+  <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Montserrat' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/ir_black.min.css">
+  <link rel="stylesheet" href="/css/text.css">
+  <link rel="stylesheet" href="/css/color.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/apple-touch-icon-57-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <!-- RSS -->
+  <link href="{{.RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
