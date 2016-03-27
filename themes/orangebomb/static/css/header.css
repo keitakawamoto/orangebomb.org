@@ -1,0 +1,58 @@
+/* header */
+
+.header {
+  padding: 48px 0 30px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+      padding: 28px 0 10px;
+  }
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo */
+
+.logo {
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    font-size: 1.4em;
+  }
+}
+
+/* menu */
+
+.menu {
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.menu > li {
+  display: inline-block;
+  padding: 0;
+}
+
+.menu > li a {
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition-duration: 0.3s;
+  border: 1px solid #fff;
+}
+
+.menu > li a:hover {
+  text-decoration: none;
+  opacity: .6;
+  border: 1px solid #eaeaf5;
+}

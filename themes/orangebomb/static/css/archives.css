@@ -1,0 +1,16 @@
+a.archives {
+  padding: 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  border: 1px solid #ededed;
+}
+
+a.archives:hover {
+  background-color: #f1f1f5;
+}
+
+.archive-list {
+  margin-top: 50px;
+}

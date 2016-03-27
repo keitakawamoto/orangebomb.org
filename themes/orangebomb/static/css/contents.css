@@ -1,0 +1,80 @@
+/* code */
+
+code {
+  font-family: "Source Code Pro", "sans-serif";
+  font-size: 0.9em;
+}
+
+p code,
+li code {
+  padding: 1px 3px;
+  margin: 0 2px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  color: #444;
+  background: #f1f1f5;
+}
+
+/* tag */
+
+.tag {
+  margin-top: 1em;
+  padding: 17px 0;
+  color: #9e9e9e;
+  border-bottom: 1px solid #ededed;
+}
+
+.tag a {
+  color: #9e9e9e;
+  border: 1px solid #ededed;
+  font-size: 0.7em;
+  padding: 3px 5px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+
+.tag a:hover {
+  background-color: #f1f1f5;
+  text-decoration: none;
+}
+
+.tag-icon {
+  margin-top: 8px;
+  margin-right: 5px;
+  float: left;
+}
+
+.tag ul {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  float: left;
+}
+
+.tag li {
+  padding: 0;
+  margin: 4px 0;
+  display: inline-block;
+}
+
+.tag-link {
+  margin-left: 5px;
+}
+
+/* day */
+
+.day {
+  margin: 10px 0 40px;
+  font-size: 0.8em;
+  color: #9e9e9e;
+}
+
+.day-icon {
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+
+.list-day {
+  margin: 2px 0 20px;
+  font-size: 0.8em;
+}

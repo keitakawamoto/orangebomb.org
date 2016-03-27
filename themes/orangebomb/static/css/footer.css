@@ -1,0 +1,60 @@
+/* footer */
+
+.footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 50px 0 100px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+      margin: 20px 0 60px;
+  }
+}
+
+.footer small {
+  font-size: 100%;
+}
+
+/* author */
+
+.author {
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/author.png);
+  background-size: 65px 65px;
+  border: 1px solid #f5f5f5;
+  border-radius: 50px;
+  margin: 0 auto 10px;
+}
+
+.author-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* social */
+
+.social li {
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+}
+
+.social li a {
+  color: #7e7e7e;
+}
+
+.social-btn div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* copyright */
+
+.copyright {
+  margin-top: 10px;
+  line-height: 160%;
+}

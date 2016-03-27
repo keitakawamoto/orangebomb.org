@@ -1,0 +1,158 @@
+body {
+  color: #52545a;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 1em;
+}
+
+a {
+  color: #2d7dbe;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0.2em 0;
+  word-wrap: break-word;
+}
+
+.clear {
+  clear: both;
+}
+
+.fa {
+  font-size: 0.8em;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+  margin: 30px 0 !important;
+}
+
+hr {
+  height: 0px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hljs {
+  border-radius: 6px;
+  padding: 1em;
+  margin: 2em 0;
+  background-color: #29292f;
+}
+
+/* list */
+
+/* h1-6 */
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h1 a {
+  transition-duration: 0.3s;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: .8em;
+}
+
+/* container */
+
+.container {
+  max-width: 830px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container img {
+  max-width: 100%;
+  margin: 40px 0;
+}
+
+.container ul {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 550px) {
+  .container ul {
+    margin: 20px 0;
+  }
+}
+
+.container li {
+  margin: 3px 0 3px 20px;
+}
+
+/* post */
+
+.post {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.post header > h1 {
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 130%;
+  margin: 50px 0 0;
+}
+
+@media screen and (max-width: 550px) {
+  .post header > h1 {
+    font-size: 1.6em;
+  }
+}
+
+.post-inner h1 {
+  padding-bottom: 4px;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+  color: #2e3034;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.post-inner h2 {
+  line-height: 130%;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+  color: #2e3034;
+}
+
+.post-inner h3 {
+  line-height: 130%;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+  color: #2e3034;
+}
