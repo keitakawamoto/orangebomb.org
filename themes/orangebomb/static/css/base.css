@@ -6,15 +6,6 @@ body {
   font-size: 1em;
 }
 
-a {
-  color: #2d7dbe;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 p {
   margin: 0.2em 0;
   word-wrap: break-word;
@@ -41,14 +32,16 @@ hr {
   border-bottom: 1px solid #f0f0f0;
 }
 
-.hljs {
-  border-radius: 6px;
-  padding: 1em;
-  margin: 2em 0;
-  background-color: #29292f;
+/* link */
+
+a {
+  color: #2d7dbe;
+  text-decoration: none;
 }
 
-/* list */
+a:hover {
+  text-decoration: underline;
+}
 
 /* h1-6 */
 
