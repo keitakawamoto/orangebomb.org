@@ -3,7 +3,6 @@
 .header {
   padding: 48px 0 30px;
   text-align: center;
-  border-bottom: 1px solid #ededed;
 }
 
 @media screen and (max-width: 550px) {
@@ -20,7 +19,6 @@
 /* logo */
 
 .logo {
-  color: #222;
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
 }

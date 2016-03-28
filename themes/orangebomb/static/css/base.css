@@ -1,9 +1,10 @@
 body {
-  color: #52545a;
+  color: #444;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica", "sans-serif";
-  font-size: 1em;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;
+  font-size: 15px;
+  background-color: #f8f9fb;
 }
 
 p {
@@ -51,6 +52,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-size: 1.8em;
+  color: #282a2d;
 }
 
 h1 a {
@@ -81,7 +83,7 @@ h5 {
 /* container */
 
 .container {
-  max-width: 830px;
+  max-width: 590px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -113,10 +115,10 @@ h5 {
 }
 
 .post header > h1 {
-  font-size: 2em;
-  font-weight: normal;
+  font-size: 26px;
+  font-weight: bold;
   line-height: 130%;
-  margin: 50px 0 0;
+  margin: 50px 0 20px;
 }
 
 @media screen and (max-width: 550px) {
