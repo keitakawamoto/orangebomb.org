@@ -6,11 +6,20 @@
   {{ end }}
   <ul class="social">
     <li><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
     <li><a href="https://github.com/{{ .Site.Params.GitHub }}" target="_blank"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://jp.pinterest.com/{{ .Site.Params.Pintelest }}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+    <li><a href="http://codepen.io/{{ .Site.Params.CodePen }}" target="_blank"><i class="fa fa-codepen"></i></a></li>
+    <li><a href="https://www.instagram.com/{{ .Site.Params.Instagram }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://soundcloud.com/{{ .Site.Params.SoundCloud }}" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+    
+
+
+
     <li><a href="/index.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
   </ul>
   <p class="copyright">
-    <small>&copy; {{ .Site.Author.Name }} Powered by <a href="http://gohugo.io" target="_blank">Hugo</a></small>
+    <small><span class="copy-c">&copy;</span> {{ .Site.Author.Name }} Powered by <a href="http://gohugo.io" target="_blank">Hugo</a></small>
   </p>
 </footer>
 
