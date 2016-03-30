@@ -1,9 +1,11 @@
 <footer class="footer">
-  <div class="author"></div>
-  <p class="author-name"><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">@{{ .Site.Author.Name }}</a></p>
-  {{ range .Site.Author.Bio }}
-    <p>{{ . }}</p>
-  {{ end }}
+  <div class="author-image"></div>
+  <div class="author">
+    <p class="author-name"><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">@{{ .Site.Author.Name }}</a></p>
+    {{ range .Site.Author.Bio }}
+      <p class="author-bio">{{ . }}</p>
+    {{ end }}
+  </div>
   <ul class="social">
     <li><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
