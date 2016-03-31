@@ -115,7 +115,7 @@ h5 {
 /* post */
 
 .post {
-  margin: 0 auto;
+  margin: 50px auto 0;
   padding-bottom: 20px;
 }
 
@@ -123,7 +123,7 @@ h5 {
   font-size: 26px;
   font-weight: bold;
   line-height: 130%;
-  margin: 50px 0 20px;
+  margin: 0 0 20px;
 }
 
 @media screen and (max-width: 550px) {
