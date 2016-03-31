@@ -28,9 +28,6 @@ http://mtl.recruit.co.jp/ux-sketch-vol4/ より
 
 ## 使い方
 
-![lsmt_3](https://git.pepabo.com/github-enterprise-assets/0000/0072/0007/6465/8533e654-d419-11e5-98cf-42cd0b1d40e7.jpg)![lsmt_5](https://git.pepabo.com/github-enterprise-assets/0000/0072/0007/6466/853494e6-d419-11e5-8cc2-f154d52abcb2.jpg)
-
-
 - 1.どんどん左側に書き出していく（全員で）
  - 想像できるもの “このプロダクトの顧客は誰か？問題は何か？解決策は何か？最も問題なのは何か”
 - 2.下部のヒントは書き方サンプルなので気にしなくて良い
