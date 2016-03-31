@@ -59,7 +59,42 @@
 
 .social li a {
   color: #7e7e7e;
+  transition-duration:0.3s;
 }
+
+.social li a.twitter:hover {
+  color: #1da1f2;
+}
+
+.social li a.dribbble:hover {
+  color: #ea4c89;
+}
+
+.social li a.github:hover {
+  color: #333;
+}
+
+.social li a.pinterest:hover {
+  color: #cb1f27;
+}
+
+.social li a.codepen:hover {
+  color: #1b1c1b;
+}
+
+.social li a.instagram:hover {
+  color: #044b7b;
+}
+
+.social li a.soundcloud:hover {
+  color: #f50;
+}
+
+.social li a.rss:hover {
+  color: #ed802e;
+}
+
+/* social button */
 
 .social-btn div {
   display: inline-block;
