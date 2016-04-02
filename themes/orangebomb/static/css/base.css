@@ -2,7 +2,8 @@ body {
   color: #444;
   padding: 0;
   margin: 0;
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;
+  font-family: "ryo-gothic-plusn";
+  /*font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;*/
   font-size: 15px;
   background-color: #f8f9fb;
 }
@@ -10,7 +11,7 @@ body {
 ul,il {
   padding: 0;
   margin: 0;
-} 
+}
 
 p {
   margin: 0.2em 0;
