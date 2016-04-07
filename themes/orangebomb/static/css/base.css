@@ -4,7 +4,8 @@ body {
   margin: 0;
   font-family: "ryo-gothic-plusn";
   /*font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;*/
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 170%;
   background-color: #f8f9fb;
 }
 
@@ -121,7 +122,7 @@ h5 {
 }
 
 .post header > h1 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
   line-height: 130%;
   margin: 0 0 20px;
