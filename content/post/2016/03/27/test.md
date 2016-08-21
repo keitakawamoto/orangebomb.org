@@ -6,7 +6,8 @@ tags = ["blog"]
 
 仮説検証ツール `Javelin Experiment Board` がよさそうだったのでまとめます。
 
-![](https://camo.githubusercontent.com/1901b4b4d35afc7961dbc2146a1a5e43bb3df631/687474703a2f2f6d656469612e6d6564696174656d706c652e6e6574646e612d63646e2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30382f30342d4a6176656c696e2d4578706572696d656e742d426f6172642d6c617267652d6f70742e706e67)
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">カップヌードル   たまに食べたくなる   魅力   謎    心理   [検索]</p>&mdash; keita kawamoto (@keita_kawamoto) <a href="https://twitter.com/keita_kawamoto/status/767297926783639556">2016年8月21日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 日本語訳ボード
 
@@ -25,6 +26,8 @@ http://growthhack.vasily.jp/2015/01/startup-roadmap/ より
 『誰のどんな問題をどのように解決するかの理想を描き、描いた仮説が実在するか、
 事前に検証できないかを検討し、現実とのギャップに学びながら軌道修正していく必要がある』
 http://mtl.recruit.co.jp/ux-sketch-vol4/ より
+
+<script async class="speakerdeck-embed" data-id="3aa195056add46a4a1ada25338538df1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## 使い方
 
@@ -54,8 +57,53 @@ http://mtl.recruit.co.jp/ux-sketch-vol4/ より
 「本当に？例外なく全員料理するのか？」などのリスクがある状態で検証なしにこのままプロダクトを進めると（間違っているかもしれないゆえに）失敗するかもしれない。検証してリスクをなくしていく必要がある。
 
 ```
-レベル１〜５
-レベル１が最もレベル高い（リスクが高い）
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="keita_kawamoto">
+
+    <title>Javelin Experiment Board &middot; Orangebomb</title>
+
+  <meta property="og:title" content="Javelin Experiment Board">
+  <meta property="og:url" content="http://localhost:1313/blog/2016/03/27/test/">
+  <meta property="og:image" content="http://blog.orangebomb.org/images/ogp.png">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/contents.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/archives.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/ir_black.min.css">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/apple-touch-icon-57-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="canonical" href="http://localhost:1313/blog/2016/03/27/test/">
+</head>
+
+  <body>
+    <div class="header">
+  <div class="header-inner">
+    <header>
+      <h1 class="logo"><a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Orangebomb"></a></h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="/post">ARCHIVES</a></li>
+          <li><a href="/tag">TAG</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</div>
+
 ```
 
 ## 使用するタイミング
