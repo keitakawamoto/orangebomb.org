@@ -9,6 +9,16 @@ body {
   background-color: #f8f9fb;
 }
 
+::selection {
+  background: #f57342;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #f57342;
+  color: #fff;
+}
+
 ul,il {
   padding: 0;
   margin: 0;
