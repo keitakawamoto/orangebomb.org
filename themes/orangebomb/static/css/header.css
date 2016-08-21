@@ -43,9 +43,10 @@
 /* menu */
 
 .menu {
+  font-family: 'Karla', sans-serif;
   padding: 0;
-  font-size: 11px;
-  width: 430px;
+  font-size: 13px;
+  width: 510px;
   height: 25px;
   line-height: 28px;
   float: right;
@@ -54,9 +55,9 @@
 .menu > li {
   display: inline-block;
   padding: 0;
-  margin-left: 15px;
+  margin-right: 25px;
 }
 
 .menu > li a {
-  color: #444;
+  color: #282a2d;
 }
