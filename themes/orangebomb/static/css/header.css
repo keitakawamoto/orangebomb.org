@@ -1,7 +1,7 @@
 /* header */
 
 .header {
-  background-color: #fff; 
+  background-color: #fff;
   padding: 30px 0;
 }
 
@@ -30,11 +30,14 @@
 /* logo */
 
 .logo {
-  font-size: 11px;
-  height: 25px;
-  width: 150px;
+  width: 25px;
+  height: 23px;
   float: left;
-  background: #ccc;
+}
+
+.logo img {
+  width: 25px;
+  height: 23px;
 }
 
 /* menu */
