@@ -4,6 +4,8 @@ title = "Javelin Experiment Board"
 tags = ["blog"]
 +++
 
+![](https://cloud.githubusercontent.com/assets/1661325/13044802/8b32ee84-d413-11e5-893c-ba4f64ac6950.png)
+
 仮説検証ツール `Javelin Experiment Board` がよさそうだったのでまとめます。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">カップヌードル   たまに食べたくなる   魅力   謎    心理   [検索]</p>&mdash; keita kawamoto (@keita_kawamoto) <a href="https://twitter.com/keita_kawamoto/status/767297926783639556">2016年8月21日</a></blockquote>
