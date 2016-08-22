@@ -5,7 +5,7 @@
   {{ if eq .URL "/" }}
     <title>{{ .Site.Title }}</title>
   {{ else }}
-    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    <title>{{ .Title }} &nbsp;-&nbsp; {{ .Site.Title }}</title>
   {{ end }}
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
