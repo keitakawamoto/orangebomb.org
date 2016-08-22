@@ -17,9 +17,10 @@ li code {
 
 .hljs {
   border-radius: 6px;
-  padding: 1em;
+  padding: 0 2em !important;
   margin: 2em 0;
   background-color: #29292f;
+  border: 1px solid #e1e8ed;
 }
 
 /* tag */
