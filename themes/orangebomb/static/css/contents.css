@@ -34,20 +34,12 @@ li code {
 
 .tag a {
   color: #9e9e9e;
-  border: 1px solid #ededed;
   font-size: 0.7em;
   padding: 3px 5px;
-  border-radius: 3px;
-  transition-duration: 0.3s;
-}
-
-.tag a:hover {
-  background-color: #f1f1f5;
-  text-decoration: none;
 }
 
 .tag-icon {
-  margin-top: 8px;
+  margin-top: 11px;
   margin-right: 5px;
   float: left;
 }

@@ -1,7 +1,7 @@
 +++
 date = "2016-03-27T20:29:18+09:00"
 title = "blog.orangebom.org is @keita_kawamoto ’s blog"
-tags = ["blog"]
+tags = ["blog", "template", "orangebomb"]
 +++
 
 ![](https://cloud.githubusercontent.com/assets/1661325/13044802/8b32ee84-d413-11e5-893c-ba4f64ac6950.png)
