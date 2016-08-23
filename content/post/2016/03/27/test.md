@@ -1,6 +1,6 @@
 +++
 date = "2016-03-27T20:29:18+09:00"
-title = "Javelin Experiment Board"
+title = "blog.orangebom.org is @keita_kawamoto ’s blog"
 tags = ["blog"]
 +++
 
