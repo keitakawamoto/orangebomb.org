@@ -6,15 +6,19 @@
     <div class="post-inner">
       {{ .Content }}
     </div>
-    <footer class="tag">
-      <i class="fa fa-tags tag-icon"></i>
-      <ul>
-      {{ range .Params.tags }}
-        <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
-      {{ end }}
-      </ul>
-      <div class="clear"></div>
-      <time><div class="day"><i class="fa fa-calendar-o day-icon"></i>{{ .Date.Format "2006-01-02" }}</div></time>
+    <footer>
+      <div class="post-footer">
+        <div class="day">
+          <time>{{ .Date.Format "2006-01-02" }}</time>
+          <div class="dot">&middot;</div>
+        </div>
+        <i class="fa fa-tags tag-icon"></i>
+        <ul>
+        {{ range .Params.tags }}
+          <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+        </ul>
+      </div>
     </footer>
   </div>
 </article>

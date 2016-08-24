@@ -23,58 +23,51 @@ li code {
   border: 1px solid #e1e8ed;
 }
 
-/* tag */
+/* post-footer */
 
-.tag {
+.post-footer {
+  font-size: 0.7em;
   margin-top: 1em;
-  padding: 17px 0;
+  height: 100px;
   color: #9e9e9e;
   border-bottom: 1px solid #ededed;
 }
 
-.tag a {
+.post-footer a {
   color: #9e9e9e;
-  font-size: 0.7em;
   padding: 3px 5px;
 }
 
-.tag-icon {
-  margin-top: 11px;
-  margin-right: 5px;
-  float: left;
-}
-
-.tag ul {
+.post-footer ul {
   margin: 0;
   padding: 0;
-  width: 90%;
   float: left;
 }
 
-.tag li {
+.post-footer li {
   padding: 0;
-  margin: 4px 0;
+  margin: 0;
   display: inline-block;
+}
+
+.tag-icon {
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
 }
 
 .tag-link {
   margin-left: 5px;
 }
 
-/* day */
-
 .day {
-  margin: 10px 0 40px;
-  font-size: 0.8em;
-  color: #9e9e9e;
+  float: left;
+  margin-right: 20px;
 }
 
-.day-icon {
-  margin-right: 6px;
-  vertical-align: 1px;
-}
-
-.list-day {
-  margin: 2px 0 20px;
-  font-size: 0.8em;
+.dot {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: -2px;
+  padding-left: 17px;
 }
