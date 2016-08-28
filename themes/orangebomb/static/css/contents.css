@@ -6,16 +6,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-size: 1.8em;
-  color: #282a2d;
-}
-
-h1 a {
-  transition-duration: 0.3s;
-}
-
-h1 a:hover {
-  text-decoration: none;
-  opacity: .6;
 }
 
 h2 {
@@ -47,6 +37,12 @@ h5 {
   margin: 40px 0;
 }
 
+@media screen and (max-width: 550px) {
+  .container img {
+    margin: 20px 0;
+  }
+}
+
 .container ul,
 .container ol {
   margin: 30px 0;
@@ -76,6 +72,13 @@ h5 {
 .post {
   margin: 50px auto 0;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .container-inner,
+  .post {
+    margin: 30px auto 0;
+  }
 }
 
 .post header > h1 {
@@ -124,6 +127,12 @@ h5 {
   height: 100px;
   color: #9e9e9e;
   border-bottom: 1px solid #ededed;
+}
+
+@media screen and (max-width: 550px) {
+  .post-footer {
+      height: 60px;
+  }
 }
 
 .post-footer a {

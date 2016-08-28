@@ -11,16 +11,17 @@
   content:"";
 }
 
-@media screen and (max-width: 550px) {
-  .header {
-      padding: 28px 0 0;
-  }
-}
-
 .header-inner {
   max-width: 590px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 550px) {
+  .header-inner {
+    padding: 0 15px;
+  }
+}
+
 
 .header h1 {
   margin: 0;
@@ -50,6 +51,12 @@
   height: 25px;
   line-height: 28px;
   float: right;
+}
+
+@media screen and (max-width: 550px) {
+  .menu {
+    width: 290px;
+  }
 }
 
 .menu > li {
