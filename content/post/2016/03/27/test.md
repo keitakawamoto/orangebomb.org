@@ -59,7 +59,6 @@ http://mtl.recruit.co.jp/ux-sketch-vol4/ より
 「本当に？例外なく全員料理するのか？」などのリスクがある状態で検証なしにこのままプロダクトを進めると（間違っているかもしれないゆえに）失敗するかもしれない。検証してリスクをなくしていく必要がある。
 
 ```
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -105,7 +104,6 @@ http://mtl.recruit.co.jp/ux-sketch-vol4/ より
     </header>
   </div>
 </div>
-
 ```
 
 ## 使用するタイミング

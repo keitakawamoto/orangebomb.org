@@ -2,8 +2,7 @@ body {
   color: #444;
   padding: 0;
   margin: 0;
-  font-family: "ryo-gothic-plusn";
-  /*font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;*/
+  font-family: "ryo-gothic-plusn", 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;
   font-size: 14px;
   line-height: 170%;
   background-color: #f8f9fb;
@@ -59,37 +58,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* container */
-
-.container {
-  max-width: 590px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.container img {
-  max-width: 100%;
-  margin: 40px 0;
-}
-
-.container ul {
-  margin: 30px 0;
-}
-
-@media screen and (max-width: 550px) {
-  .container ul {
-    margin: 20px 0;
-  }
-}
-
-.container li {
-  margin: 3px 0 3px 20px;
-}
-
-.container li ul {
-  margin: 10px 0;
 }
 
 /* footer archives bottun */
