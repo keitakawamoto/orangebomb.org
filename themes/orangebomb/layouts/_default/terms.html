@@ -7,13 +7,14 @@
       <article>
         <div class="container-inner">
           <header>
-            <h1>Archives</h1>
+            <h1>Tags</h1>
           </header>
           <ul>
-            {{ range .Data.Pages }}
+            {{ $plural := .Data.Plural }}
+            {{ range $key, $value := .Data.Terms }}
               <li>
-                <time><span class="list-day">{{ .Date.Format "2006-01-02" }}</span></time>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <a href="/{{ $plural }}/{{ $key | urlize }}">{{ $key }}</a>
+                <span class="tag-count">（{{ len $value }}）</span>
               </li>
             {{ end }}
           </ul>
