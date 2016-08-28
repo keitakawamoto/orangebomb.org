@@ -5,7 +5,7 @@ languageCode = "ja-jp"
 [author]
   Name = "keita_kawamoto"
   Bio  = [
-    "自己紹介"
+    "UI, Graphic Designer.「わからない」をなくす研究。"
   ]
 
 [permalinks]
@@ -14,3 +14,7 @@ languageCode = "ja-jp"
 [params]
   Twitter = "keita_kawamoto"
   GitHub  = "keitakawamoto"
+  Dribbble  = "keita_kawamoto"
+  Pintelest = "keitakawamoto"
+  CodePen = "keitakawamoto"
+  Instagram  = "keita_kawamoto"

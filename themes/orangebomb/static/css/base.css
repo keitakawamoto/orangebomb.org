@@ -1,0 +1,92 @@
+body {
+  color: #444;
+  padding: 0;
+  margin: 0;
+  font-family: "ryo-gothic-plusn", 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 170%;
+  background-color: #f8f9fb;
+}
+
+::selection {
+  background: #f57342;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #f57342;
+  color: #fff;
+}
+
+ul,il {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0.2em 0;
+  word-wrap: break-word;
+}
+
+.clear {
+  clear: both;
+}
+
+.fa {
+  font-size: 0.8em;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+  margin: 30px 0 !important;
+}
+
+@media screen and (max-width: 550px) {
+  iframe {
+    margin: 15px 0 !important;
+  }
+}
+
+hr {
+  height: 0px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* link */
+
+a {
+  color: #2d7dbe;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* footer archives bottun */
+
+a.archives {
+  padding: 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: .3s;
+  width: 260px;
+  margin: 20px auto;
+  box-shadow: 0 2px 3px .1px rgba(177, 177, 177, .6);
+  border: 2px solid #444;
+  color: #444;
+}
+
+@media screen and (max-width: 550px) {
+  a.archives {
+    margin: 20px auto 45px;
+  }
+}
+
+a.archives:hover {
+  background-color: #f1f1f5;
+}

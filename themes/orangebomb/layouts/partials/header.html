@@ -1,4 +1,14 @@
-<header>
-  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-  <p>{{ .Site.Params.description }}</p>
-</header>
+<div class="header">
+  <div class="header-inner">
+    <header>
+      <h1 class="logo"><a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logo.svg" alt="Orangebomb"></a></h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="/post">ARCHIVES</a></li>
+          <li><a href="/tags">TAGS</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</div>

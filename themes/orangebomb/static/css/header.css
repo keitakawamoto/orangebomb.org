@@ -1,0 +1,70 @@
+/* header */
+
+.header {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.header:after {
+  display:block;
+  clear:both;
+  content:"";
+}
+
+.header-inner {
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 550px) {
+  .header-inner {
+    padding: 0 15px;
+  }
+}
+
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo */
+
+.logo {
+  width: 25px;
+  height: 23px;
+  float: left;
+}
+
+.logo img {
+  width: 25px;
+  height: 23px;
+}
+
+/* menu */
+
+.menu {
+  font-family: 'Karla', sans-serif;
+  padding: 0;
+  font-size: 13px;
+  width: 510px;
+  height: 25px;
+  line-height: 28px;
+  float: right;
+}
+
+@media screen and (max-width: 550px) {
+  .menu {
+    width: 290px;
+  }
+}
+
+.menu > li {
+  display: inline-block;
+  padding: 0;
+  margin-right: 25px;
+}
+
+.menu > li a {
+  color: #282a2d;
+}
