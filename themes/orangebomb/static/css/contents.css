@@ -82,7 +82,6 @@ h5 {
 }
 
 .post header > h1 {
-  font-size: 22px;
   font-weight: bold;
   line-height: 130%;
   margin: 0 0 20px;
@@ -105,17 +104,17 @@ h5 {
 
 .post-inner h2 {
   line-height: 130%;
-  margin-top: 2em;
-  margin-bottom: 0.6em;
+  margin-top: 2.7em;
+  margin-bottom: 0.8em;
   font-weight: normal;
   color: #2e3034;
 }
 
 .post-inner h3 {
   line-height: 130%;
-  margin-top: 2.5em;
-  margin-bottom: 0.6em;
-  font-weight: normal;
+  margin-top: 2.7em;
+  margin-bottom: 0.8em;
+  font-weight: bold;
   color: #2e3034;
 }
 
@@ -153,7 +152,7 @@ h5 {
 }
 
 .tag-icon {
-  margin-top: 5px;
+  margin-top: 8px;
   margin-right: 5px;
   float: left;
 }
@@ -221,7 +220,7 @@ p code,
 li code {
   padding: 1px 3px;
   margin: 0 2px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   border-radius: 4px;
   color: #444;
   background: #e8ebef;
