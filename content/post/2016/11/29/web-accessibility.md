@@ -14,7 +14,6 @@ tags = ["インターフェイス/インタラクション","アクセシビリ�
 
 すべて2016年9月時点（スライド作成時）の情報を参考にしました。
 
-
 - [視覚障害者 - Wikipedia](https://ja.wikipedia.org/wiki/視覚障害者)
 - [視覚障害とは - 公益財団法人 関西盲導犬協会](http://www.kansai-guidedog.jp/knowledge/disease/)
 - [視覚障害とは - 高知県立盲学校](http://www.kochinet.ed.jp/mo-s/mt/post-28.html)
@@ -23,7 +22,6 @@ tags = ["インターフェイス/インタラクション","アクセシビリ�
 - [視覚障害者 全盲者と弱視者の割合 統計みたいなものが欲しい... - Yahoo!知恵袋](http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1049785990)
 - [WAI-ARIA の基礎知識 — Website Usability Info](http://website-usability.info/2014/04/entry_140415.html)
 - [WAI-ARIA | HTMLリファレンス](http://www.webcreativepark.net/html/wai-aria/)
-
 
 ## まとめ終えて
 
