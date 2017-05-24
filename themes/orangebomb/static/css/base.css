@@ -74,7 +74,7 @@ a.archives {
   text-align: center;
   text-decoration: none;
   transition-duration: .3s;
-  width: 260px;
+  max-width: 260px;
   margin: 20px auto;
   box-shadow: 0 2px 3px .1px rgba(177, 177, 177, .6);
   border: 2px solid #444;
