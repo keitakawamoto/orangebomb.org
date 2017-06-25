@@ -68,6 +68,18 @@ h5 {
 
 /* post */
 
+.posts article:first-child {
+  border-top: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts article {
+  border-top: 1px dashed #d7dbe4;
+  margin-top: 80px;
+  padding-top: 60px;
+}
+
 .container-inner,
 .post {
   margin: 50px auto 0;
