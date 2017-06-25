@@ -19,20 +19,22 @@
 
 /* author */
 
+.author {
+  position: relative;
+  vertical-align: 7px;
+  padding-left: 64px;
+}
+
 .author-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 45px;
   height: 45px;
   background-image: url(../images/author.png);
   background-size: 45px 45px;
   border: 1px solid #f5f5f5;
   border-radius: 50px;
-  display: inline-block;
-}
-
-.author {
-  display: inline-block;
-  margin-left: 10px;
-  vertical-align: 7px;
 }
 
 .author-name {
@@ -60,7 +62,7 @@
 
 .social li a {
   color: #7e7e7e;
-  transition-duration:0.3s;
+  transition-duration: .3s;
 }
 
 .social li a.twitter:hover {

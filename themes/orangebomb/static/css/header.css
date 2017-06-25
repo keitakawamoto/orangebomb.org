@@ -49,10 +49,27 @@
   margin-left: 50px;
 }
 
+@media screen and (max-width: 360px) {
+  .menu {
+    width: 200px;
+    margin-left: 34px;
+  }
+}
+
 .menu > li {
   display: inline-block;
   padding: 0;
   margin-right: 25px;
+}
+
+.menu > li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .menu > li {
+    margin-right: 20px;
+  }
 }
 
 .menu > li a {

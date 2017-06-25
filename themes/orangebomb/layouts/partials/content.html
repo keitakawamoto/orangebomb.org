@@ -2,23 +2,22 @@
   <div class="post">
     <header>
       <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="post-date">
+        <div class="day">
+          <time>{{ .Date.Format "2006-01-02" }}</time>
+        </div>
+        <div class="tags">
+          <i class="fa fa-tags tag-icon"></i>
+          <ul>
+          {{ range .Params.tags }}
+            <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+          </ul>
+        </div>
+      </div>
     </header>
     <div class="post-inner">
       {{ .Content }}
     </div>
-    <footer>
-      <div class="post-footer">
-        <div class="day">
-          <time>{{ .Date.Format "2006-01-02" }}</time>
-          <div class="dot">&middot;</div>
-        </div>
-        <i class="fa fa-tags tag-icon"></i>
-        <ul>
-        {{ range .Params.tags }}
-          <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
-        {{ end }}
-        </ul>
-      </div>
-    </footer>
   </div>
 </article>

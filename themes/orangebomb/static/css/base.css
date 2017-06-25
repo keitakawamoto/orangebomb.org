@@ -9,12 +9,12 @@ body {
 }
 
 ::selection {
-  background: #f57342;
+  background: #ff713c;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f57342;
+  background: #ff713c;
   color: #fff;
 }
 
@@ -33,7 +33,7 @@ p {
 }
 
 .fa {
-  font-size: 0.8em;
+  font-size: .8em;
 }
 
 iframe {
@@ -58,7 +58,7 @@ hr {
 /* link */
 
 a {
-  color: #2d7dbe;
+  color: #0e69e2;
   text-decoration: none;
 }
 
@@ -74,8 +74,8 @@ a.archives {
   text-align: center;
   text-decoration: none;
   transition-duration: .3s;
-  width: 260px;
-  margin: 20px auto;
+  max-width: 260px;
+  margin: 50px auto 20px;
   box-shadow: 0 2px 3px .1px rgba(177, 177, 177, .6);
   border: 2px solid #444;
   color: #444;
@@ -83,7 +83,7 @@ a.archives {
 
 @media screen and (max-width: 550px) {
   a.archives {
-    margin: 20px auto 45px;
+    margin: 40px auto 45px;
   }
 }
 

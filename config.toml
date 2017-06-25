@@ -1,5 +1,5 @@
 title        = "Orangebomb"
-baseurl      = "http://blog.orangebomb.org"
+baseurl      = "//blog.orangebomb.org"
 languageCode = "ja-jp"
 
 [author]
