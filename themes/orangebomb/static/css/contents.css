@@ -259,9 +259,16 @@ blockquote {
 /* list-day */
 
 .list-day {
-  color: #9e9e9e;
+  color: #7e7e7e;
   display: inline-block;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 538px) {
+  .list-day {
+    font-size: 12px;
+    display: block;
+  }
 }
 
 /* tag-count */
