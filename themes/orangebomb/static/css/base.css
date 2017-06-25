@@ -75,7 +75,7 @@ a.archives {
   text-decoration: none;
   transition-duration: .3s;
   max-width: 260px;
-  margin: 20px auto;
+  margin: 50px auto 20px;
   box-shadow: 0 2px 3px .1px rgba(177, 177, 177, .6);
   border: 2px solid #444;
   color: #444;
