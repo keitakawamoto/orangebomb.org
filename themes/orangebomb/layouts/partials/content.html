@@ -5,14 +5,15 @@
       <div class="post-data">
         <div class="day">
           <time>{{ .Date.Format "2006-01-02" }}</time>
-          <div class="dot">&middot;</div>
         </div>
-        <i class="fa fa-tags tag-icon"></i>
-        <ul>
-        {{ range .Params.tags }}
-          <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
-        {{ end }}
-        </ul>
+        <div class="tags">
+          <i class="fa fa-tags tag-icon"></i>
+          <ul>
+          {{ range .Params.tags }}
+            <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+          </ul>
+        </div>
       </div>
     </header>
     <div class="post-inner">

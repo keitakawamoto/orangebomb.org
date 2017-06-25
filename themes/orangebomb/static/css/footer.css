@@ -62,7 +62,7 @@
 
 .social li a {
   color: #7e7e7e;
-  transition-duration:0.3s;
+  transition-duration: .3s;
 }
 
 .social li a.twitter:hover {

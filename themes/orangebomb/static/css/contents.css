@@ -105,7 +105,7 @@ h5 {
 .post-inner h2 {
   line-height: 130%;
   margin-top: 2.7em;
-  margin-bottom: 0.8em;
+  margin-bottom: .8em;
   font-weight: normal;
   color: #2e3034;
 }
@@ -113,7 +113,7 @@ h5 {
 .post-inner h3 {
   line-height: 130%;
   margin-top: 2.7em;
-  margin-bottom: 0.8em;
+  margin-bottom: .8em;
   font-weight: bold;
   color: #2e3034;
 }
@@ -121,34 +121,15 @@ h5 {
 /* post-data */
 
 .post-data {
-  font-size: 0.7em;
+  font-size: .7em;
   margin-top: 1em;
   height: 100px;
   color: #9e9e9e;
-  border-bottom: 1px solid #ededed;
-}
-
-@media screen and (max-width: 550px) {
-  .post-data {
-      height: 60px;
-  }
 }
 
 .post-data a {
   color: #9e9e9e;
   padding: 3px 5px;
-}
-
-.post-data ul {
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-
-.post-data li {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
 }
 
 .tag-icon {
@@ -164,13 +145,6 @@ h5 {
 .day {
   float: left;
   margin-right: 20px;
-}
-
-.dot {
-  font-size: 18px;
-  display: inline-block;
-  vertical-align: -2px;
-  padding-left: 17px;
 }
 
 /* table */
@@ -213,14 +187,14 @@ tr:nth-child(even) td {
 
 code {
   font-family: "Source Code Pro", "sans-serif";
-  font-size: 0.9em;
+  font-size: .9em;
 }
 
 p code,
 li code {
   padding: 1px 3px;
   margin: 0 2px;
-  font-size: 0.9em;
+  font-size: .9em;
   border-radius: 4px;
   color: #444;
   background: #e8ebef;
