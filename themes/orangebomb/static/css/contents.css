@@ -122,16 +122,16 @@ h5 {
   color: #2e3034;
 }
 
-/* post-data */
+/* post-date */
 
-.post-data {
+.post-date {
   font-size: .7em;
   color: #9e9e9e;
   display: flex;
   margin-bottom: 34px;
 }
 
-.post-data a {
+.post-date a {
   color: #9e9e9e;
   padding: 3px 5px;
   background: #e8ebef;
@@ -147,7 +147,7 @@ h5 {
 }
 
 @media screen and (max-width: 538px) {
-  .post-data {
+  .post-date {
     display: block;
   }
 
