@@ -21,13 +21,12 @@
 
 .author {
   position: relative;
-  vertical-align: 7px;
   padding-left: 64px;
 }
 
 .author-image {
   position: absolute;
-  top: 0;
+  top: -5px;
   left: 0;
   width: 45px;
   height: 45px;
@@ -46,6 +45,18 @@
 
 .author-bio {
   margin: 0;
+}
+
+@media screen and (max-width: 590px) {
+  .author-image {
+    top: 0;
+  }
+  .author-name {
+    margin: 0 0 6px;
+  }
+  .author-bio {
+    line-height: 170%;
+  }
 }
 
 /* social */
