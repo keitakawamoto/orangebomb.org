@@ -145,6 +145,21 @@ h5 {
     display: inline-block;
 }
 
+@media screen and (max-width: 538px) {
+  .post-data {
+    display: block;
+  }
+
+  .day {
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .day time {
+    padding: 0;
+  }
+}
+
 .tags {
   flex: 1;
 }
