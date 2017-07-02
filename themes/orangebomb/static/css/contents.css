@@ -93,7 +93,10 @@ h5 {
 
 @media screen and (max-width: 550px) {
   .post header > h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1.3em;
   }
 }
 
