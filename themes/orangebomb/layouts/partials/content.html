@@ -7,7 +7,8 @@
           <time>{{ .Date.Format "2006-01-02" }}</time>
         </div>
         <div class="tags">
-          <i class="fa fa-tags tag-icon"></i>
+          <i class="fa fa-tags tag-icon" aria-hidden="true"></i>
+          <span class="sr-only">Tags</span>
           <ul>
           {{ range .Params.tags }}
             <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
