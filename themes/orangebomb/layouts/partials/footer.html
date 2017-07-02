@@ -7,13 +7,48 @@
     {{ end }}
   </div>
   <ul class="social">
-    <li><a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
-    <li><a href="https://github.com/{{ .Site.Params.GitHub }}" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
-    <li><a href="https://jp.pinterest.com/{{ .Site.Params.Pintelest }}" target="_blank" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
-    <li><a href="http://codepen.io/{{ .Site.Params.CodePen }}" target="_blank" class="codepen"><i class="fa fa-codepen"></i></a></li>
-    <li><a href="https://www.instagram.com/{{ .Site.Params.Instagram }}" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="/index.xml" target="_blank" class="rss"><i class="fa fa-rss"></i></a></li>
+    <li>
+      <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank" class="twitter">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <span class="sr-only">Twitter</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="_blank" class="dribbble">
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+        <span class="sr-only">Dribbble</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/{{ .Site.Params.GitHub }}" target="_blank" class="github">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <span class="sr-only">GitHub</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://jp.pinterest.com/{{ .Site.Params.Pintelest }}" target="_blank" class="pinterest">
+        <i class="fa fa-pinterest" aria-hidden="true"></i>
+        <span class="sr-only">Pinterest</span>
+      </a>
+    </li>
+    <li>
+      <a href="http://codepen.io/{{ .Site.Params.CodePen }}" target="_blank" class="codepen">
+        <i class="fa fa-codepen" aria-hidden="true"></i>
+        <span class="sr-only">Codepen</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/{{ .Site.Params.Instagram }}" target="_blank" class="instagram">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span class="sr-only">Instagram</span>
+      </a>
+    </li>
+    <li>
+      <a href="/index.xml" target="_blank" class="rss">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        <span class="sr-only">RSS</span>
+      </a>
+    </li>
   </ul>
   <p class="copyright">
     <small><span class="copy-c">&copy;</span> {{ .Site.Author.Name }} Powered by <a href="http://gohugo.io" target="_blank">Hugo</a></small>
