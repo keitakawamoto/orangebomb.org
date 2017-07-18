@@ -45,6 +45,18 @@ iframe {
   }
 }
 
+@media screen and (max-width: 414px) {
+  iframe {
+    height: 243px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  iframe {
+    height: 221px;
+  }
+}
+
 hr {
   height: 0px;
   margin: 20px 0;
