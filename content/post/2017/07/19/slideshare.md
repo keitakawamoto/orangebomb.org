@@ -92,23 +92,23 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 という流れ。画面を見つつ解説すると
 
-![20170719slideshare_1](https://user-images.githubusercontent.com/1661325/28351621-07b8fbe4-6c8c-11e7-981a-7f46fe10afa5.png)
+![keynoteの画面](https://user-images.githubusercontent.com/1661325/28351621-07b8fbe4-6c8c-11e7-981a-7f46fe10afa5.png)
 
 まずはkeynoteメニューの `ファイル` &#8594; `プリント`。
 
-<img src="https://user-images.githubusercontent.com/1661325/28351622-07db665c-6c8c-11e7-870e-f4e61d25f933.png" width="456">
+<img src="https://user-images.githubusercontent.com/1661325/28351622-07db665c-6c8c-11e7-870e-f4e61d25f933.png" width="456" alt="keynoteメニュー">
 
 左下にある `PDF` を `Save as Adobe PDF` に変更する。Adobe PDFの設定は `標準` を選択。
 
-![20170719slideshare_3](https://user-images.githubusercontent.com/1661325/28351625-07e5c840-6c8c-11e7-9fb8-e3756cfecf0a.png)
+![プリント画面](https://user-images.githubusercontent.com/1661325/28351625-07e5c840-6c8c-11e7-9fb8-e3756cfecf0a.png)
 
 Adobe Acrobat Proで先ほどのファイルを開き、右側の検索窓から `トリミング` と検索（どこにあるかわからなかったので検索した方が早かった）。その後 `ページをトリミング` を選択。
 
-![20170719slideshare_4](https://user-images.githubusercontent.com/1661325/28351623-07e3d0c6-6c8c-11e7-966a-87bd607793b2.png)
+![Adobe Acrobat Proの画面](https://user-images.githubusercontent.com/1661325/28351623-07e3d0c6-6c8c-11e7-966a-87bd607793b2.png)
 
 トリミング範囲を指定した後、詳細画面が表示される。16:9のスライド場合、 `余白の制御` は上下 `21ミリ` ほどで綺麗になった。ページ範囲の項目では `すべて` を選択。これで全ページに同じトリミングが適用される。その後保存すると、PDFの完成。
 
-![20170719slideshare_5](https://user-images.githubusercontent.com/1661325/28351624-07e433e0-6c8c-11e7-8804-32d93eaf71b5.png)
+![トリミング詳細画面](https://user-images.githubusercontent.com/1661325/28351624-07e433e0-6c8c-11e7-8804-32d93eaf71b5.png)
 
 完成したPDFをSlideShareへアップロードすると、文字も消えておらず無用な余白もない綺麗な状態かつアクセシブルなスライドにできる。
 次に、Adobe Acrobut Proが手に入らず、使わないでやる必要がある場合の方法を記載する。
