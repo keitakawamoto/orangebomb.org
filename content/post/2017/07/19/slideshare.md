@@ -10,7 +10,7 @@ Keynoteなどでスライドを作成し、スライドのSNSへアップロー�
 - [アクセシビリティと、スライドのアップロードに関する事情](#170719SlideShare-2)
   - [SpeakerDeckでは情報（スライドの内容）にアクセスできない](#170719SlideShare-2-1)
   - [SlideShareの場合は中身を読みテキストとしてWebページ上に表示される](#170719SlideShare-2-2)
-- [Keynoteを使ってSlideShareにアップロードする具体的な手順](#170719SlideShare-3)
+- [Keynoteで作ったスライドをSlideShareにアップロードする手順](#170719SlideShare-3)
 - [Adobe Acrobut Pro を使わない場合](#170719SlideShare-4)
 - [完璧は難しい。「割り切ること」も重要なこと](#170719SlideShare-5)
 - [余談１.SlideShareにアップしたスライドを削除する方法](#170719SlideShare-6)
@@ -35,7 +35,7 @@ Keynoteなどでスライドを作成し、スライドのSNSへアップロー�
 ここからは、スライドとアクセシビリティの関係について。
 
 <a name="170719SlideShare-2-1"></a>
-### 1. SpeakerDeckでは情報（スライドの内容）にアクセスできない
+### （１）SpeakerDeckでは情報（スライドの内容）にアクセスできない
 
 以前、スライドを[SpeakerDeck](https://speakerdeck.com/)にて公開した時に、スクリーンリーダーユーザーである [@ma10](https://twitter.com/ma10?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Flocalhost%3A1313%2Fblog%2F2017%2F07%2F19%2Fslideshare%2F) さんが以下のようなツイートをなされていた。
 
@@ -50,7 +50,7 @@ Keynoteなどでスライドを作成し、スライドのSNSへアップロー�
 なんてこった...
 
 <a name="170719SlideShare-2-2"></a>
-### 2. SlideShareの場合は中身を読みテキストとしてWebページ上に表示される
+### （２）SlideShareの場合は中身を読みテキストとしてWebページ上に表示される
 
 SpeakerDeckに関しショックを受けたところで、「SlideShareならばその問題が起こらない」という情報も得た。
 
@@ -59,26 +59,23 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 しかし、SpeakerDeckだと起こる困ることは起こらなくても、SlideShareにはSlideShareならではの困ることがあるのであった。
 僕はスライド作成には[Keynote](https://www.apple.com/jp/keynote/)を使っている。困る問題とは、Keynoteバージョン6以降で生成したPDFをSlideShareにアップロードすると、作ったスライド上からテキスト部分がすべて消滅してしまう、という問題だ。消えたのか、そこにあるけどただ映らないのかはわからない。
+今回、どのようにすれば問題なくSlideShareにアップロードすることができるのかを調べた。
 
 <a name="170719SlideShare-3"></a>
-## Keynoteを使ってSlideShareにアップロードする具体的な手順
+## Keynoteで作ったスライドをSlideShareにアップロードする手順
 
-keynoteを利用する場合の手順
-
-資料をKeynoteで作成している場合slideshareにアップするとフォントが変になったりする問題の解決
-
-残念ながらSlideShareの開発は止まっているらしく（？）、こちら側が頑張らないといけない...
+そのうちSlideShare側がバグを解消してくれるのでは？という点に関して。[KeynoteのスライドをSlideShareにアップロードすると日本語が表示されない問題 - Qiita / 公式の回答 ](http://qiita.com/yasulab/items/49511c27179be454d568#%E5%85%AC%E5%BC%8F%E3%81%AE%E5%9B%9E%E7%AD%94) によると、残念ながら前述の文字が消える問題を解決する対応は時間がかかるようで、こちら側が頑張らないといけない…
+ [@magi1125](https://twitter.com/magi1125) さんがツイートしていた解決策をベースに進める。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">FAQぽいので。KeynoteからSlideShare用に(日本語表示されてテキストも抽出される)PDFを出力する方法。印刷メニューからカスタムサイズで160/90mm or 160/120mmに設定して「AcrobatでPDF保存」的なのを選ぶ。リンクは死ぬけどあとは大丈夫。</p>&mdash; Rikiya Ihara (@magi1125) <a href="https://twitter.com/magi1125/status/769361345892364288">2016年8月27日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-この検証では
+この検証では以下のバージョンを使用する。
 
+- `keynote バージョン7.2（4582）`
+- `Adobe Acrobut Pro DC バージョン 2017.009.20058`
 
-- keynote バージョン7.2（4582）
-- Adobe Acrobut Pro DC バージョン 2017.009.20058
-
-を使用する。結論から言うと、
+結論から言うと、
 
 
 > カスタムサイズで160/90mm or 160/120mmに設定して「AcrobatでPDF保存」的なのを選ぶ。
@@ -87,26 +84,34 @@ keynoteを利用する場合の手順
 今回行なった手段は、
 
 
-- Adobe Acrobat Proを用意（少なくとも2016年8月時点での最新版が必要な模様）
-- keynote「ファイル」→ 「プリント」→ 形式を「PDF」から「Save as Adobe PDF」を選択
-- Adobe PDFの設定は「標準」を選択・保存
+- Adobe Acrobat Proを用意（少なくとも2016年8月時点での最新版が必要？）
+- keynote `ファイル` &#8594; `プリント` &#8594; 形式で `Save as Adobe PDF` を選択
+- Adobe PDFの設定は `標準` を選択・保存
 - Adobe Acrobat Proで展開、無用な余白をトリミング・保存
 - SlideShareへアップロード
 
-と言う流れ
-
-
-
+という流れ。画面を見つつ解説すると
 
 ![20170719slideshare_1](https://user-images.githubusercontent.com/1661325/28351621-07b8fbe4-6c8c-11e7-981a-7f46fe10afa5.png)
 
+まずはkeynoteメニューの `ファイル` &#8594; `プリント`。
+
 <img src="https://user-images.githubusercontent.com/1661325/28351622-07db665c-6c8c-11e7-870e-f4e61d25f933.png" width="456">
+
+左下にある `PDF` を `Save as Adobe PDF` に変更する。Adobe PDFの設定は `標準` を選択。
 
 ![20170719slideshare_3](https://user-images.githubusercontent.com/1661325/28351625-07e5c840-6c8c-11e7-9fb8-e3756cfecf0a.png)
 
+Adobe Acrobat Proで先ほどのファイルを開き、右側の検索窓から `トリミング` と検索（どこにあるかわからなかったので検索した方が早かった）。その後 `ページをトリミング` を選択。
+
 ![20170719slideshare_4](https://user-images.githubusercontent.com/1661325/28351623-07e3d0c6-6c8c-11e7-966a-87bd607793b2.png)
+
+トリミング範囲を指定した後、詳細画面が表示される。16:9のスライド場合、 `余白の制御` は上下 `21ミリ` ほどで綺麗になった。ページ範囲の項目では `すべて` を選択。これで全ページに同じトリミングが適用される。その後保存すると、PDFの完成。
+
 ![20170719slideshare_5](https://user-images.githubusercontent.com/1661325/28351624-07e433e0-6c8c-11e7-8804-32d93eaf71b5.png)
 
+完成したPDFをSlideShareへアップロードすると、文字も消えておらず無用な余白もない綺麗な状態かつアクセシブルなスライドにできる。
+次に、Adobe Acrobut Proが手に入らず、使わないでやる必要がある場合の方法を記載する。
 
 <a name="170719SlideShare-4"></a>
 ## Adobe Acrobut Pro を使わない場合
