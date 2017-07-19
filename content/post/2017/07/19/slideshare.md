@@ -6,35 +6,34 @@ tags: ["アクセシビリティ"]
 
 Keynoteなどでスライドを作成し、スライドのSNSへアップロードし、シェアする。多くの人が行なっているこの行動、場合によっては **スライドの中身にアクセスできないことがある** という事実を知った。そこで、そのようなことが起こらないようにアクセシブルなスライドにするにはどうすればよいのか？という部分に関し調査・検証を行なったので記録する。
 
-- アクセシブル？
-- アクセシビリティと、スライドのアップロードに関する事情
-  - SpeakerDeckでは情報（スライドの内容）にアクセスできないことが判明
-  - SlideShareの場合は中身を読みテキストとしてWebページ上に表示される
-- keynoteを使ってSlideShareにアップロードする具体的な手順
-- Adobe Acrobut Pro を使わない場合
-- 完璧は難しい。「割り切ること」も重要なこと
-- SlideShareにアップしたスライドを削除する方法
-- 一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法
-- 所感
+- [アクセシブルとは？](#170719SlideShare-1)
+- [アクセシビリティと、スライドのアップロードに関する事情](#170719SlideShare-2)
+  - [SpeakerDeckでは情報（スライドの内容）にアクセスできないことが判明](#170719SlideShare-2-1)
+  - [SlideShareの場合は中身を読みテキストとしてWebページ上に表示される](#170719SlideShare-2-2)
+- [keynoteを使ってSlideShareにアップロードする具体的な手順](#170719SlideShare-3)
+- [Adobe Acrobut Pro を使わない場合](#170719SlideShare-4)
+- [完璧は難しい。「割り切ること」も重要なこと](#170719SlideShare-5)
+- [余談１.SlideShareにアップしたスライドを削除する方法](#170719SlideShare-6)
+- [余談２.一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法](#170719SlideShare-7)
+- [所感](#170719SlideShare-8)
 
+<a name="170719SlideShare-1"></a>
+## アクセシブルとは？
 
-```
-[リンク見出し①](#アンカー名①)
-<a name="アンカー名①"></a>
-```
-
-## アクセシブル？
+まずは `アクセシブル` という単語について。
 
 > アクセシブルデザインは、高齢者・障害のある人々の利便性を配慮しつつ、健常者の利便性も確保することを目的として、従来の設計を高齢者や障害のある人々のニーズに合わせ拡張することによって、製品、サービス、建物などがそのまま利用できる潜在顧客数を最大限に増やすための設計ということができます。これにより、ビジネス拡大の効果を得ることが可能になりますが、ビジネスを最優先させるのではなく、高齢者や障害のある人々の利便性を高めることが主たるねらいです。
 > アクセシブルデザインは、ISOにおける ガイド71 の議論において、高齢者・障害のある人々が健常者と同様に社会システムにアクセスできる言葉として定義されています。
 
 出典：[共用品推進機構 - アクセシブルデザイン関連JIS・基本規格](http://www.kyoyohin.org/ja/research/japan/ad_jis_1.php)
 
+このように書かれることが多いが、僕は **どのような条件であろうと誰しもが同じようにコンテンツにアクセスすることができること** という認識をしている。僕にとって「障害者対応」という言葉は本質的ではなく、目が見えなかったとしても、耳が聞こえなかったとしても、テクノロジーを利用すれば健常者と同じようにコンテンツを参照できるのであるだから、当然そうあるべきである、というもの。（似て非なるもの、というか。やっていることは同じかもしれないが、捉え方の問題）
 
+<a name="170719SlideShare-2"></a>
+## アクセシビリティと、スライドのアップロードに関する事情
 
-
-
-## SpeakerDeckでは情報（スライドの内容）にアクセスできないことが判明
+<a name="170719SlideShare-2-1"></a>
+### SpeakerDeckでは情報（スライドの内容）にアクセスできないことが判明
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">んー、Speaker Deckかあ。。。良いまとめだというツイートを見かけたけど、内容確認できないので紹介は断念。 <a href="https://t.co/oFzTw8NZ6W">https://t.co/oFzTw8NZ6W</a></p>&mdash; Max/なかね まさふみ (@ma10) <a href="https://twitter.com/ma10/status/803519996663992320">2016年11月29日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -42,15 +41,15 @@ Keynoteなどでスライドを作成し、スライドのSNSへアップロー�
 - Speakerdeckはスライドを画像として表示するのみ
 - テキスト情報として内容にアクセスすることができない
 
-
-## SlideShareの場合は中身を読みテキストとしてWebページ上に表示される
+<a name="170719SlideShare-2-2"></a>
+### SlideShareの場合は中身を読みテキストとしてWebページ上に表示される
 
 - 適切な方法でSlideShareにアップすると、スライド内のテキストを抜き出してくれるため、スクリーンリーダーユーザーでも内容を把握することができる
 - スクリーンリーダーで読み上げることが可能：視覚以外でアクセスできる
 - PDF等のテキストデータを読み込んでいるだけで、画像化文字はおそらく判定不能
 
 
-
+<a name="170719SlideShare-3"></a>
 ## keynoteを使ってSlideShareにアップロードする具体的な手順
 
 keynoteを利用する場合の手順
@@ -98,6 +97,7 @@ keynoteを利用する場合の手順
 ![20170719slideshare_5](https://user-images.githubusercontent.com/1661325/28351624-07e433e0-6c8c-11e7-8804-32d93eaf71b5.png)
 
 
+<a name="170719SlideShare-4"></a>
 ## Adobe Acrobut Pro を使わない場合
 
 Adobe Acrobut Proを使わず、SlideShareへスライドをアップロードするにはどうするとよいか？
@@ -120,7 +120,7 @@ Adobe Acrobut Proを使わず、SlideShareへスライドをアップロード�
 
 などの手段がある。
 
-
+<a name="170719SlideShare-5"></a>
 ## 完璧は難しい。「割り切ること」も重要なこと
 
 今回の件を調べるにあたり、SlideShareにアップロードできたと言っても、「それだけで完全にアクセシブルなのか？」という疑問を持っていた。
@@ -138,7 +138,8 @@ Adobe Acrobut Proを使わず、SlideShareへスライドをアップロード�
 
 という回答をいただいた。割り切るという視点が欠けていたため、目が覚めたようだった。
 
-## SlideShareにアップしたスライドを削除する方法
+<a name="170719SlideShare-6"></a>
+## 余談１.SlideShareにアップしたスライドを削除する方法
 
 テストで文字が消えてしまったスライドを削除しようとしたところ、消すまでにかなり迷った。（バグなのか、  `Edit` &#8594;  `Delete presentation` では消えないことがあった）
 最終的には [SlideShare ファイルを削除する | LinkedInヘルプ](https://www.linkedin.com/help/linkedin/answer/55028/slideshare-?lang=ja) にたどり着くことで解消できた。
@@ -151,13 +152,15 @@ Adobe Acrobut Proを使わず、SlideShareへスライドをアップロード�
 
 とのこと。
 
-## 一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法
+<a name="170719SlideShare-7"></a>
+## 余談２.一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">そういえば、SpeakerDeckだと、SlideShareみたいにテキストの書き出しをしてくれませんが、<a href="https://t.co/xRxKpHgSw7">https://t.co/xRxKpHgSw7</a>というサイトだとテキストの書き出しつけてくれるんですよね。他サイトのスライドをいただきマンモスって感じなのが気にはなりますが。</p>&mdash; まえぽん (@maepon) <a href="https://twitter.com/maepon/status/874119273949483010">2017年6月12日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こういう裏技も一応あるようだ。 [SSSSLIDE](http://sssslide.com)...スライド集約サイト？
 
+<a name="170719SlideShare-8"></a>
 ## 所感
 
 アクセシブルにするためにこのような努力が必要である今の状況には不満がある。
