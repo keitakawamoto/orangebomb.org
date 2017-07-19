@@ -16,6 +16,7 @@ Keynoteなどでスライドを作成し、スライドのSNSへアップロー�
 - [余談１.SlideShareにアップロードしたスライドを削除する方法](#170719SlideShare-6)
 - [余談２.一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法](#170719SlideShare-7)
 - [所感](#170719SlideShare-8)
+- [【7/20追記】Acrobutでのトリミングなしで済む方法](#170719SlideShare-9)
 
 <a name="170719SlideShare-1"></a>
 ## アクセシブルとは？
@@ -72,7 +73,7 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 この検証では以下のバージョンを使用する。
 
-- `keynote バージョン7.2（4582）`
+- `Keynote バージョン7.2（4582）`
 - `Adobe Acrobut Pro DC バージョン 2017.009.20058`
 
 結論から言うと、
@@ -178,3 +179,35 @@ Keynoteの文字が消える問題の解決対応がまだ先になりそうなS
 …と言いつつ、自分の携わっているものがすべてアクセシブルかと言われると違う。もっと頑張らないといけない。もっと勉強と実験を繰り返し、関わるものを可能な限りアクセシブルにしなければ。
 
 そして、この件で相談に乗っていただいた [@magi1125](https://twitter.com/magi1125) さんには本当に感謝しかありません。ありがとうございます！
+
+<a name="170719SlideShare-8"></a>
+## 【7/20追記】Acrobutでのトリミングなしで済む方法
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">記事みてわかりました。Keynoteでcmd+p➞[詳細を表示]➞ダイアログ右t中段のKeynoteと書かれたセレクトボックスで[ページ属性]を選択➞紙のサイズでカスタムサイズ➞90mm,160mmとしてください。これで余白が消えます。あとはSave as Adobe PDF!</p>&mdash; Rikiya Ihara (@magi1125) <a href="https://twitter.com/magi1125/status/887654118201806848">2017年7月19日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+> > カスタムサイズで160/90mm or 160/120mmに設定して「AcrobatでPDF保存」的なのを選ぶ。
+>
+> いろいろ試行錯誤したもののここがどうしても実現できなかった。
+
+この記事を後悔したところ、[@magi1125](https://twitter.com/magi1125) さんからフィードバックをいただけた。わからなかったこの部分の解決方法を教えていただけた...！圧倒的感謝。（僕は印刷画面UIが苦手っぽい）
+
+Keynoteの以下の `プリント` の設定画面のところで下部にある `詳細を表示` から進む。
+
+![20170719slideshare_6](https://user-images.githubusercontent.com/1661325/28393664-0d7f8b3c-6d23-11e7-998b-b045512cedde.png)
+
+ダイアログ中段の `Keynote` と書かれたセレクトボックスで `ページ属性` を選択。
+
+![20170719slideshare_7](https://user-images.githubusercontent.com/1661325/28393666-0d801c96-6d23-11e7-9100-9acea960745b.png)
+<img src="https://user-images.githubusercontent.com/1661325/28393665-0d7fb9ae-6d23-11e7-9864-9019bdaed254.png" width="269" alt="keynoteメニュー">
+
+`用紙サイズ`のセレクトボックスで `カスタムサイズを管理...` を選択。
+
+![20170719slideshare_9](https://user-images.githubusercontent.com/1661325/28393667-0d806e8a-6d23-11e7-8bc9-75866d2991b9.png)
+
+新しいサイズを設定できるので、左側の `+` から新規サイズを追加する。
+`90mm` `160mm` と指定すればOK。 （4:3のスライドの場合 `160mm` `120mm` と指定すればよい）
+
+![20170719slideshare_10](https://user-images.githubusercontent.com/1661325/28393668-0d823a80-6d23-11e7-8d77-8a4470b9b226.png)
+
+こうすれば、Acrobatでトリミングせずとも余白がない状態で出力できる。あとはSlideShareアップロードすればOK。
