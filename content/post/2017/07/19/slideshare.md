@@ -32,28 +32,68 @@ tags: ["アクセシビリティ"]
 
 
 
+## 具体的な手順
 
-==============
+keynoteを利用する場合の手順
 
-具体的なやつ
+資料をKeynoteで作成している場合slideshareにアップするとフォントが変になったりする問題の解決
 
-==============
+残念ながらSlideShareの開発は止まっているらしく（？）、こちら側が頑張らないといけない...
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">FAQぽいので。KeynoteからSlideShare用に(日本語表示されてテキストも抽出される)PDFを出力する方法。印刷メニューからカスタムサイズで160/90mm or 160/120mmに設定して「AcrobatでPDF保存」的なのを選ぶ。リンクは死ぬけどあとは大丈夫。</p>&mdash; Rikiya Ihara (@magi1125) <a href="https://twitter.com/magi1125/status/769361345892364288">2016年8月27日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+この検証では
+
+
+- keynote バージョン7.2（4582）
+- Adobe Acrobut Pro DC バージョン 2017.009.20058
+
+を使用する。結論から言うと、
+
+
+> カスタムサイズで160/90mm or 160/120mmに設定して「AcrobatでPDF保存」的なのを選ぶ。
+
+いろいろ試行錯誤したもののここがどうしても実現できなかった。
+今回行なった手段は、
+
+
+- Adobe Acrobat Proを用意（少なくとも2016年8月時点での最新版が必要な模様）
+- keynote「ファイル」→ 「プリント」→ 形式を「PDF」から「Save as Adobe PDF」を選択
+- Adobe PDFの設定は「標準」を選択・保存
+- Adobe Acrobat Proで展開、無用な余白をトリミング・保存
+- SlideShareへアップロード
+
+と言う流れ
 
 
 
-# Adobe Acrobut Pro を使わない場合
 
-keynoteの場合、
+![20170719slideshare_1](https://user-images.githubusercontent.com/1661325/28351621-07b8fbe4-6c8c-11e7-981a-7f46fe10afa5.png)
+
+<img src="https://user-images.githubusercontent.com/1661325/28351622-07db665c-6c8c-11e7-870e-f4e61d25f933.png" width="456">
+
+![20170719slideshare_3](https://user-images.githubusercontent.com/1661325/28351625-07e5c840-6c8c-11e7-9fb8-e3756cfecf0a.png)
+
+![20170719slideshare_4](https://user-images.githubusercontent.com/1661325/28351623-07e3d0c6-6c8c-11e7-966a-87bd607793b2.png)
+![20170719slideshare_5](https://user-images.githubusercontent.com/1661325/28351624-07e433e0-6c8c-11e7-8804-32d93eaf71b5.png)
 
 
-- keynoteの書き出しの「イメージ」を選び、すべてのページを画像で書き出した後、全ページにひとつずつ画像をかぶせ、通常のPDFで書き出し、アップロードするか
+## Adobe Acrobut Pro を使わない場合
+
+Adobe Acrobut Proを使わず、SlideShareへスライドをアップロードするにはどうするとよいか？
+
+### （１）Keynoteの場合（文字が消えるバグの回避法）
+
+
+- Keynoteの書き出しの「イメージ」を選び、すべてのページを画像で書き出した後、全ページにひとつずつ画像をかぶせ、通常のPDFで書き出し、アップロードする
   - 余白問題は解消され、スクリーンリーダーでも読める状態
-  - しかし画像だと多少文字がギザる、作業者に大きな手間がかかると言うデメリット
-  - ナンセンスな印象
+  - しかし画像だと多少文字がギザる、大きな手間がかかると言うデメリット
+  - とてもナンセンスな印象
 - ヒラギノなどOS Xの標準フォント以外のフォントを使う（ [KeynoteのスライドをSlideShareにアップロードすると日本語が表示されない問題](http://qiita.com/yasulab/items/49511c27179be454d568#%E6%A1%885-os-x%E3%81%AE%E6%A8%99%E6%BA%96%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88-%E3%83%92%E3%83%A9%E3%82%AE%E3%83%8E%E3%81%AA%E3%81%A9-%E4%BB%A5%E5%A4%96%E3%81%AE%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86) より ）
-- 文字が消える事象が起こるkeynote6より前のkeynote5以前を使う？（手に入るかはわからないが…）
+- 文字が消える事象が起こるKeynote6より前のKeynote5以前を使う？（手に入るかはわからないが…）
 
-keynote以外の場合、
+### （２）Keynote以外の場合（おそらく文字が消えるバグは起こらない）
 
 
 - Googleスライド
@@ -62,54 +102,47 @@ keynote以外の場合、
 などの手段がある。
 
 
-# 「割り切ること」が重要
+## 完璧は難しい。「割り切ること」も重要なこと
 
-今回の件を調べるにあたり、SlideShareにアップロードできたと言っても、それだけで完全にアクセシブルなのか？という疑問を持っていた。
+今回の件を調べるにあたり、SlideShareにアップロードできたと言っても、「それだけで完全にアクセシブルなのか？」という疑問を持っていた。
 
 
-- 自動出力されたテキスト情報は改行や段落が認識しにくいと思うが、テキスト情報だけで読む人は、どのように脳内補正している？
-- テキスト情報の内容は重複してもいいのか？（差分表現で、差分箇所以外は同じものを掲載することになる）
+- SlideShareでは自動出力されたテキスト情報は改行や段落がなくなるので認識しにくいと思うが、テキスト情報だけで読む人は、どのように脳内補正している？
+- テキスト情報の内容は重複してもいいのか？（差分表現で、差分箇所以外は同じものを何度も掲載することになる）
 - 図解の図に関しどのようにテキスト化すればいい？
-- 自分一人ならすごく気にすれば実現できるかもしれないが、人に続いてもらえるようなフレームワーク化とか無理では…
+- 自分一人ならすごく気にすればこれらを解決できるかもしれないが、人に続いてもらえるようなフレームワーク化とか無理では…
 
-などということについていろいろと頭を抱えていたところ、 [!important #04 -特盛！アクセシビリティスペシャル-](https://important.doorkeeper.jp/events/58580) でお会いした @magi1125 にこのことを相談させていただいた。
+などということについて頭を抱えおり、ちょうどそのころ参加した勉強会 [!important #04 -特盛！アクセシビリティスペシャル-](https://important.doorkeeper.jp/events/58580) でお会いした [@magi1125](https://twitter.com/magi1125) にこのことを相談させていただいた。すると、
 
-
-- 全く読むことができない、よりも、読めるだけよい、と割り切ることも大事
-- 作成者次第な部分が大きすぎる
+- `全く読むことができない` という状況から `読めるようになった` それでけでも大きい変化だと割り切ることも大事
+- `完璧` は難しいこと。そしてスライドの作成者次第な部分が大きすぎる
 
 という回答をいただいた。割り切るという視点が欠けていたため、目が覚めたようだった。
 
+## SlideShareにアップしたスライドを削除する方法
 
-# SlideShareにアップしたスライドを削除する方法
-
-ミスをしてしまい、削除しようとしたところ、かなり迷ったし困った。（バグなのか、  `Edit` →  `Delete presentation` では消えないことがあった）
+テストで文字が消えてしまったスライドを削除しようとしたところ、消すまでにかなり迷った。（バグなのか、  `Edit` &#8594;  `Delete presentation` では消えないことがあった）
 最終的には [SlideShare ファイルを削除する | LinkedInヘルプ](https://www.linkedin.com/help/linkedin/answer/55028/slideshare-?lang=ja) にたどり着くことで解消できた。
 
 
-> 1. SlideShare に[**サインイン**](https://www.slideshare.net/professional-journey?via=login)します。
-> 2.右上のプロフィール写真にマウスをポイントし、[My uploads] を選択します。
-> 3.削除するプレゼンテーションの左上のチェックボックスをオンにします。
-> 4.[削除] をクリックします。
+> - SlideShare にサインイン
+> - 右上のプロフィール写真にマウスをポイントし、 `My uploads` を選択
+> - 削除するプレゼンテーションの左上のチェックボックスをオンに
+> - `削除` をクリック
 
 とのこと。
 
+## 一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法
 
-# 一応ある？SpeakerDeckのスライドをスクリーンリーダーで読む方法
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">そういえば、SpeakerDeckだと、SlideShareみたいにテキストの書き出しをしてくれませんが、<a href="https://t.co/xRxKpHgSw7">https://t.co/xRxKpHgSw7</a>というサイトだとテキストの書き出しつけてくれるんですよね。他サイトのスライドをいただきマンモスって感じなのが気にはなりますが。</p>&mdash; まえぽん (@maepon) <a href="https://twitter.com/maepon/status/874119273949483010">2017年6月12日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+こういう裏技も一応あるようだ。 [SSSSLIDE](http://sssslide.com)...スライド集約サイト？
 
-https://twitter.com/maepon/status/874119273949483010
-
-
-[https://twitter.com/maepon/status/874119273949483010](https://twitter.com/maepon/status/874119273949483010)
-
-こういう裏技も一応あるようだ。 http://sssslide.com スライド収集サイトなのだろうか…
-
-
-# 所感
+## 所感
 
 アクセシブルにするためにこのような努力が必要である今の状況には不満がある。
-keynoteの文字が消える問題の解決対応がまだ先になりそうなSlideShareも、テキストデータが出力されないためにスクリーンリーダーでは読むことができない状態であるSpeakerDeckも、ただPDFで出力してアップロードさえすればスライドの内容になんの無理もなく誰もがアクセスできる未来を望む。
+Keynoteの文字が消える問題の解決対応がまだ先になりそうなSlideShareも、テキストデータが出力されないためにスクリーンリーダーでは読むことができない状態であるSpeakerDeckも、ただPDFで出力してアップロードさえすればスライドの内容になんの無理もなく誰もがアクセスできるようになる未来を望んでいる。
 …と言いつつ、自分の携わっているものがすべてアクセシブルかと言われると違う。もっと頑張らないといけない。もっと勉強と実験を繰り返し、関わるものを可能な限りアクセシブルにしなければ。
 
-そしてこの件で相談に乗っていただいた @magi1125 には本当に感謝しかありません。ありがとうございます！
+そして、この件で相談に乗っていただいた [@magi1125](https://twitter.com/magi1125) には本当に感謝しかありません。ありがとうございます！
