@@ -180,7 +180,7 @@ Keynoteの文字が消える問題の解決対応がまだ先になりそうなS
 
 そして、この件で相談に乗っていただいた [@magi1125](https://twitter.com/magi1125) さんには本当に感謝しかありません。ありがとうございます！
 
-<a name="170719SlideShare-8"></a>
+<a name="170719SlideShare-9"></a>
 ## 【7/20追記】Acrobutでのトリミングなしで済む方法
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">記事みてわかりました。Keynoteでcmd+p➞[詳細を表示]➞ダイアログ右t中段のKeynoteと書かれたセレクトボックスで[ページ属性]を選択➞紙のサイズでカスタムサイズ➞90mm,160mmとしてください。これで余白が消えます。あとはSave as Adobe PDF!</p>&mdash; Rikiya Ihara (@magi1125) <a href="https://twitter.com/magi1125/status/887654118201806848">2017年7月19日</a></blockquote>
