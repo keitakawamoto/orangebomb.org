@@ -2,4 +2,4 @@
 
 My blog theme for Hugo. 
 
-- [Orangebomb](//blog.orangebomb.org)
+- [Orangebomb](https://blog.orangebomb.org)
