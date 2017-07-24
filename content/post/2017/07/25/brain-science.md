@@ -17,9 +17,9 @@ tags = ["インターフェイス/インタラクション","科学"]
 - 影があれば浮き出て見えるのはなぜか
 - 色は薄くしたりグレーにすれば非アクティブと認識する
 
-この事象について調べてみた。
+今回はこの２点の事象について調べてみた。
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/Cpex3V1VvjsR8N" width="595" height="456" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/keitakawamoto/ui-69634113" title="目が見えない状態を想定したUI設計" target="_blank">目が見えない状態を想定したUI設計</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/keitakawamoto">Keita Kawamoto</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/Cpex3V1VvjsR8N" width="595" height="456" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe><div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/keitakawamoto/ui-69634113" title="目が見えない状態を想定したUI設計" target="_blank">目が見えない状態を想定したUI設計</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/keitakawamoto">Keita Kawamoto</a></strong> </div>
 
 ## 出典・参考文献
 
