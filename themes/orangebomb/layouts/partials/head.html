@@ -2,6 +2,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="author" content="{{ .Site.Author.Name }}">
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
   {{ if eq .URL "/" }}
     <title>{{ .Site.Title }}</title>
   {{ else }}
