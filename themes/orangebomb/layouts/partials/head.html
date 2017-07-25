@@ -2,7 +2,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="author" content="{{ .Site.Author.Name }}">
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ if eq .URL "/" }}
     <title>{{ .Site.Title }}</title>
   {{ else }}
@@ -14,13 +14,19 @@
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
   <meta name="twitter:url" content="{{ .Permalink }}">
-  <meta name="twitter:image" content="{{if .IsHome}}//blog.orangebomb.org/images/ogp.png{{else}}{{ .Site.BaseURL }}{{ .Params.eyecatch }}{{end}}">
   <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.Description}}{{end}}">
   <!-- ogp -->
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:image" content="{{if .IsHome}}//blog.orangebomb.org/images/ogp.png{{else}}{{ .Site.BaseURL }}{{ .Params.eyecatch }}{{end}}">
-  <meta property="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <meta property="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <!-- og images -->
+  {{ if .IsHome }}
+    <meta property="og:image" content="//blog.orangebomb.org/images/ogp.png">
+    <meta name="twitter:image" content="//blog.orangebomb.org/images/ogp.png">
+  {{ else if .IsPage }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
+  {{end}}
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/header.css">
