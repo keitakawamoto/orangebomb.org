@@ -49,11 +49,17 @@ iframe {
   iframe {
     height: 243px;
   }
+  iframe.default {
+    height: 311px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   iframe {
     height: 221px;
+  }
+  iframe.default {
+    height: 281px;
   }
 }
 
