@@ -20,13 +20,13 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <!-- og images -->
-  {{ if .IsHome }}
+  {{ if eq .URL "/" }}
     <meta property="og:image" content="//blog.orangebomb.org/images/ogp.png">
     <meta name="twitter:image" content="//blog.orangebomb.org/images/ogp.png">
-  {{ else if .IsPage }}
+  {{ else }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
     <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
-  {{end}}
+  {{ end }}
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/header.css">
