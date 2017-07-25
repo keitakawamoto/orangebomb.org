@@ -9,7 +9,7 @@
     <title>{{ .Title }} &nbsp;-&nbsp; {{ .Site.Title }}</title>
   {{ end }}
   <!-- Twitter Card Metas -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
