@@ -97,7 +97,7 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 まずはKeynoteメニューの `ファイル` &#8594; `プリント`。
 
-<img src="//blog.orangebomb.org/20170719slideshare/20170719slideshare_2.png" width="456" alt="keynoteメニュー">
+<img src="/images/post/20170719slideshare/20170719slideshare_2.png" width="456" alt="keynoteメニュー">
 
 左下にある `PDF` を `Save as Adobe PDF` に変更する。Adobe PDFの設定は `標準` を選択。
 
@@ -203,7 +203,7 @@ Keynoteの以下の `プリント` の設定画面のところで下部にある
 ダイアログ中段の `Keynote` と書かれたセレクトボックスで `ページ属性` を選択。
 
 ![プリント詳細画面](/images/post/20170719slideshare/20170719slideshare_7.png)
-<img src="//blog.orangebomb.org/20170719slideshare/20170719slideshare_8.png" width="269" alt="ダイアログ中段のセレクトボックス">
+<img src="/images/post/20170719slideshare/20170719slideshare_8.png" width="269" alt="ダイアログ中段のセレクトボックス">
 
 `用紙サイズ`のセレクトボックスで`A4` になっているところを `カスタムサイズを管理...` に変更。
 
