@@ -9,10 +9,9 @@
           <header>
             <h1>Archives</h1>
           </header>
-          <ul>
+          <ul class="archives-list">
             {{ range .Data.Pages }}
               <li>
-                <time><span class="list-day">{{ .Date.Format "2006-01-02" }}</span></time>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
               </li>
             {{ end }}

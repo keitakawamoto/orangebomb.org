@@ -2,6 +2,7 @@
 date = "2017-07-19T05:34:18+09:00"
 title = "アクセシブルにするならSlideShareを選ぶべき？SlideShareへのアップロード方法"
 tags = ["アクセシビリティ"]
+eyecatch = "/images/ogp.png"
 +++
 
 Keynoteなどでスライドを作成し、スライドのSNSへアップロードし、シェアする。多くの人が行なっているこの行動、場合によってはスライドの中身にアクセスできないことがあるという事実を知った。そこで、そのようなことが起こらないようにアクセシブルなスライドにするにはどうすればよいのか？という部分に関し調査・検証を行なったので記録する。
@@ -91,7 +92,7 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 という流れ。画面を見つつ解説すると
 
-![keynoteの画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_1.png)
+![keynoteの画面](/images/post/20170719slideshare/20170719slideshare_1.png)
 
 まずはKeynoteメニューの `ファイル` &#8594; `プリント`。
 
@@ -99,15 +100,15 @@ SpeakerDeckに関しショックを受けたところで、「SlideShareなら�
 
 左下にある `PDF` を `Save as Adobe PDF` に変更する。Adobe PDFの設定は `標準` を選択。
 
-![プリント画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_3.png)
+![プリント画面](/images/post/20170719slideshare/20170719slideshare_3.png)
 
 Adobe Acrobat Proで先ほどのファイルを開き、右側の検索窓から `トリミング` と検索（どこにあるかわからなかったので検索した方が早かった）。その後 `ページをトリミング` を選択。
 
-![Adobe Acrobat Proの画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_4.png)
+![Adobe Acrobat Proの画面](/images/post/20170719slideshare/20170719slideshare_4.png)
 
 トリミング範囲を指定した後、詳細画面が表示される。16:9のスライド場合、 `余白の制御` は上下 `21ミリ` ほどで綺麗になった。ページ範囲の項目では `すべて` を選択。これで全ページに同じトリミングが適用される。その後保存すると、PDFの完成。
 
-![トリミング詳細画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_5.png)
+![トリミング詳細画面](/images/post/20170719slideshare/20170719slideshare_5.png)
 
 完成したPDFをSlideShareへアップロードすると、文字も消えておらず無用な余白もない綺麗な状態かつアクセシブルなスライドにできる。
 次に、Adobe Acrobut Proが手に入らず、使わないでやる必要がある場合の方法を記載する。
@@ -196,20 +197,20 @@ Keynoteの文字が消える問題の解決対応がまだ先になりそうなS
 
 Keynoteの以下の `プリント` の設定画面のところで下部にある `詳細を表示` から進む。
 
-![プリント画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_6.png)
+![プリント画面](/images/post/20170719slideshare/20170719slideshare_6.png)
 
 ダイアログ中段の `Keynote` と書かれたセレクトボックスで `ページ属性` を選択。
 
-![プリント詳細画面](//blog.orangebomb.org/20170719slideshare/20170719slideshare_7.png)
+![プリント詳細画面](/images/post/20170719slideshare/20170719slideshare_7.png)
 <img src="//blog.orangebomb.org/20170719slideshare/20170719slideshare_8.png" width="269" alt="ダイアログ中段のセレクトボックス">
 
 `用紙サイズ`のセレクトボックスで`A4` になっているところを `カスタムサイズを管理...` に変更。
 
-![用紙サイズの変更](//blog.orangebomb.org/20170719slideshare/20170719slideshare_9.png)
+![用紙サイズの変更](/images/post/20170719slideshare/20170719slideshare_9.png)
 
 新しいサイズを設定できるので、左側の `+` から新規サイズを追加する。
 `90mm` `160mm` と指定すればOK。 （4:3のスライドの場合 `160mm` `120mm` と指定すればよい）
 
-![用紙サイズの変更画面で専用のサイズを指定](//blog.orangebomb.org/20170719slideshare/20170719slideshare_10.png)
+![用紙サイズの変更画面で専用のサイズを指定](/images/post/20170719slideshare/20170719slideshare_10.png)
 
 こうすれば、Acrobatでトリミングせずとも余白がない状態で出力できる。形式は前述の通り `Save as Adobe PDF` ！ そのあとはSlideShareアップロードすればOK。

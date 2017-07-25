@@ -36,7 +36,7 @@ p {
 iframe {
   border: 0;
   max-width: 100%;
-  margin: 30px 0 !important;
+  margin: 30px 0 0 !important;
 }
 
 @media screen and (max-width: 550px) {
@@ -49,11 +49,17 @@ iframe {
   iframe {
     height: 243px;
   }
+  iframe.default {
+    height: 311px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   iframe {
     height: 221px;
+  }
+  iframe.default {
+    height: 281px;
   }
 }
 
