@@ -2,8 +2,8 @@
 date = "2017-08-04T12:48:04+09:00"
 title = "僕の視点で見たロリポップ！リブランディング〜開始からリリースまで〜 / Design Casual Talks #2"
 description = "15年以上続いてきた老舗サービスを、生まれ変わらせる必要がある。ずっと大きな変化をすることができなかったサービスをどのように生まれ変わらせたのか？"
-tags = ["メイキング","参加レポート","調査検証"]
-eyecatch = "/images/post/20170725brain-science/ogp.png"
+tags = ["メイキング","参加レポート","調査・分析"]
+eyecatch = "/images/post/20170804lolipop-rebranding/ogp.png"
 +++
 
 [ロリポップ！レンタルサーバー](https://lolipop.jp/)というホスティングサービスがあります。2001年に開始したサービスで、もう15年以上続いています。僕はそのロリポップ！を提供している[GMOペパボ](https://pepabo.com/)に勤めていて、ロリポのデザイナーをやっています。
@@ -21,11 +21,11 @@ eyecatch = "/images/post/20170725brain-science/ogp.png"
 前回よりも多くの方にお越しいただけて、とても楽しい勉強会になりました。
 いろいろ失敗もあったのですが、やっぱりデザインの勉強会は最高だなって思いました。もっと福岡のデザイン界隈が盛り上がりますように！
 
-![入り口の様子](/images/post/20170719slideshare/20170719slideshare_1.png)
-![受付の様子](/images/post/20170719slideshare/20170719slideshare_1.png)
-![ビール](/images/post/20170719slideshare/20170719slideshare_1.png)
-![発表の様子１](/images/post/20170719slideshare/20170719slideshare_1.png)
-![発表の様子２](/images/post/20170719slideshare/20170719slideshare_1.png)
+![入り口の様子](/images/post/20170804lolipop-rebranding/20170804lolipop-rebranding_1.png)
+![受付の様子](/images/post/20170804lolipop-rebranding/20170804lolipop-rebranding_2.png)
+![ビール](/images/post/20170804lolipop-rebranding/20170804lolipop-rebranding_3.png)
+![発表の様子１](/images/post/20170804lolipop-rebranding/20170804lolipop-rebranding_4.png)
+![発表の様子２](/images/post/20170804lolipop-rebranding/20170804lolipop-rebranding_5.png)
 
 ## 所感
 
