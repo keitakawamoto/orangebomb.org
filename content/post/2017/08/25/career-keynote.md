@@ -1,7 +1,7 @@
 +++
 date = "2017-08-25T08:36:15+09:00"
 title = "迷い彷徨った先で見つけた自分の進むべき道〜キャリアキーノート2017〜"
-description = "　　　　　　　　　　　　"
+description = "これまで自分が歩んで来た道のりの過程で生成された自分の根幹部分を、他者に共有する資料を作成し発表しました。"
 tags = ["自分史"]
 eyecatch = "/images/post/20170825career-keynote/ogp.png"
 +++
