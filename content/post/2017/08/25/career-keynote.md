@@ -14,7 +14,7 @@ eyecatch = "/images/post/20170825career-keynote/ogp.png"
 
 今年の春、会社に新卒の７期生たちが入社しました。その後の新卒研修の中で、各職種から１名ずつ発表する方式のキャリアキーノートのパートがあり、僕がデザイナー枠として参加できることになりました。今回はそこで発表した内容を掲載します。なんやかんやで公開し損ねてました。僕が学校を卒業し、就職し、そして今に至るまでどんな道を歩み何を得たのかがわかります。
 
-[資料]
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/HfDZs9V9kOQnbT" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/2017-79127489" title="迷い彷徨った先で見つけた自分の進むべき道〜キャリアキーノート2017〜" target="_blank">迷い彷徨った先で見つけた自分の進むべき道〜キャリアキーノート2017〜</a> </strong> from <strong><a href="https://www.slideshare.net/keitakawamoto" target="_blank">Keita Kawamoto</a></strong>
 
 今でも時折思い出すのが、恩師の言葉です。
 
