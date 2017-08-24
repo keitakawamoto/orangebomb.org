@@ -138,9 +138,14 @@ h5 {
 
 .post-date a {
   color: #9e9e9e;
-  padding: 3px 5px;
-  background: #e8ebef;
-  border-radius: 2px;
+  padding: 3px 0;
+  border-bottom: 1px dashed #9e9e9e;
+}
+
+.post-date a:hover {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px dashed #333;
 }
 
 .day {
@@ -189,7 +194,7 @@ h5 {
 }
 
 .tag-link {
-  margin-left: 5px;
+  margin-left: 10px;
 
 }
 
@@ -276,7 +281,11 @@ blockquote {
   line-height: 1em;
 }
 
-/* tag-count */
+/* tags */
+
+.tag-list {
+  font-size: .9em;
+}
 
 .tag-count {
   font-size: 12px;
