@@ -16,7 +16,11 @@ eyecatch = "/images/post/20170825career-keynote/ogp.png"
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/HfDZs9V9kOQnbT" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/2017-79127489" title="迷い彷徨った先で見つけた自分の進むべき道〜キャリアキーノート2017〜" target="_blank">迷い彷徨った先で見つけた自分の進むべき道〜キャリアキーノート2017〜</a> </strong> from <strong><a href="https://www.slideshare.net/keitakawamoto" target="_blank">Keita Kawamoto</a></strong>
 
-ヒューマンアカデミー、当時は長崎校が出島にあったんです。今はなくなってしまいましたが...。そしてこの資料を作るために過去を振り返って以降時折思い出すのが、恩師の言葉です。
+ヒューマンアカデミー、当時は長崎校が出島にあったんです。今はなくなってしまいましたが...。四つ折りにする紙の話、実際に７期生たちがやってみたところ、2/3がその通り中央よりほんの少し上に点を打っていました。残りの1/3は本当の中央に点を打っていたので、 「人間は本当の中央より ほんの少しだけ上を中央と感じ~~る~~がち」というところでしょうか。みなさんも試してみてくださいね。
+
+社内のことなんてどうでもよくない？のくだりは、「視野が社内だけに留まってどうすんだよ世の中を見ろ、もっと広く見ろ、そして得た学びで社内でぶつかった問題を解決すべきだ」と捉え、ゴニョゴニョ悩む時代は幕を閉じました。最高。誤解を生みがちなワードでしたが、社内のことなんてほっぽり出せ、という意味ではありませんでした。
+
+この資料を作るために過去を振り返って以降時折思い出すのが、恩師の言葉です。
 
 > 君のポートフォリオは５、６年前の手法だよ
 
