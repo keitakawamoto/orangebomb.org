@@ -13,6 +13,7 @@
             {{ range .Data.Pages }}
               <li>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <time><span class="list-day">{{ .Date.Format "2006-01-02" }}</span></time>
               </li>
             {{ end }}
           </ul>
