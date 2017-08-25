@@ -9,7 +9,7 @@
           <header>
             <h1>Tags</h1>
           </header>
-          <ul>
+          <ul class="tag-list">
             {{ $plural := .Data.Plural }}
             {{ range $key, $value := .Data.Terms }}
               <li>
