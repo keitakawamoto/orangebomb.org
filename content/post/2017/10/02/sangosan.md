@@ -29,12 +29,12 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 ![さんごさんの様子](/images/post/20171002sangosan/20171002sangosan_1.png)
 ![参加者がぞろぞろ集まってきた](/images/post/20171002sangosan/20171002sangosan_2.png)
 ![談笑する様子](/images/post/20171002sangosan/20171002sangosan_3.png)
-![発表の様子１](/images/post/20171002sangosan/20171002sangosan_4.png)
-![発表の様子１](/images/post/20171002sangosan/20171002sangosan_5.png)
-![発表の様子１](/images/post/20171002sangosan/20171002sangosan_6.png)
-![発表の様子１](/images/post/20171002sangosan/20171002sangosan_7.png)
+![@shikakunの発表の様子](/images/post/20171002sangosan/20171002sangosan_4.png)
+![聞き入る参加者](/images/post/20171002sangosan/20171002sangosan_5.png)
+![浜口水産の藤田さんの発表の様子](/images/post/20171002sangosan/20171002sangosan_6.png)
+![@teeeeeeooの発表の様子](/images/post/20171002sangosan/20171002sangosan_7.png)
 
-諸事情でスクリーンの用意ができず、Macをイスに置きまるで落語のように発表を行いました。いろいろ最高。
+諸事情でスクリーンの用意ができず、Macをイスに置きまるで落語のように発表を行いました。
 
 ![畳最高](/images/post/20171002sangosan/20171002sangosan_8.png)
 
