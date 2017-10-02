@@ -10,7 +10,6 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 
 一生懸命頑張って、素敵なアイデア商品を生み出した！多くの人に伝えたい。広めたい。そんなとき、一体どうすればよいのか？
 
-
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/IIK5y5fdEo9hin" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/ss-80337485" title="インターネットで 可能性をつなげる、ひろげる 〜ペパボ福岡デザインチーム〜" target="_blank">インターネットで 可能性をつなげる、ひろげる 〜ペパボ福岡デザインチーム〜</a> </strong> from <strong><a href="https://www.slideshare.net/keitakawamoto" target="_blank">Keita Kawamoto</a></strong>
 
 この僕の発表内容、 `レンタルサーバー` + `独自ドメイン` で作ったサイトが「拠点」に最適であるという話についてはこちらでも語られています。
