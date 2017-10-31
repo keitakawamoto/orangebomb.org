@@ -8,101 +8,12 @@ eyecatch = "/images/post/20171012inclusive-design-patterns/ogp.png"
 
 ![インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン](/images/post/20171012inclusive-design-patterns/ogp.png)
 
-誰が書いてる 誰が翻訳している
-インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン
-を査読させていただいた
+Heydon Pickeringさん（[@heydonworks](https://twitter.com/heydonworks)） による著書 [Inclusive Design Patterns](https://shop.smashingmagazine.com/products/inclusive-design-patterns) の日本語化+充実の訳注付き版が [インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン](https://www.amazon.co.jp/dp/4862463878) として発売されます。
 
-伊原さんがアクセシビリティSlackにて募集をしていたのがきっかけで、
+監訳は[デザイニングWebアクセシビリティ - アクセシブルな設計やコンテンツ制作のアプローチ](https://www.amazon.co.jp/dp/4862462650/ref=cm_sw_r_tw_dp_x_Ppq-zbHWM768F)の著者であり、[コーディングWebアクセシビリティ - WAI-ARIAで実現するマルチデバイス環境のWebアプリケーション](https://www.amazon.co.jp/dp/4862462669/ref=cm_sw_r_tw_dp_x_Qpq-zbN0Q5DEK)の監訳者である太田良典さん（[@bakera](https://twitter.com/bakera)）と伊原力也さん（[@magi1125](https://twitter.com/magi1125)）のお二人。
 
-> これからアクセシビリティやっていきの人に見て欲しい
+## きっかけ
 
-とのことだった。要するにユーザビリティテストの被験者のようなものだ。
-この書籍のターゲット層が「これを読んだ時どう思うか」「わからないことはあるか」などの情報が必要
-そこでまさにアクセシビリティこれからやって行く勢だった僕が立候補をさせていただいたというわけです
+ある日、[@magi1125](https://twitter.com/magi1125)さんが[アクセシビリティコミュニティのSlack](https://a11yj.herokuapp.com/)にて
 
-
-
-内容もくじ
-
-- **1: ドキュメント全体**
-  - DOCTYPE
-  - lang属性
-  - レスポンシブデザイン
-  - フォントサイズ
-  - プログレッシブエンハンスメント
-  - アセットの管理
-  - フォントのサブセット化
-  - title要素
-  - main要素
-  - フレームワーク、プリプロセッサ、タスクランナーについての注意
-- **2: パラグラフ**
-  - 書体
-  - 組版
-  - インラインリンク
-  - 自動化されたアイコン
-  - パラグラフの記述
-- **3: ブログ記事**
-  - main要素
-  - 見出しの構造
-  - プログレッシブエンハンスメントと相互運用性
-  - Flesch-Kincaid リーダビリティテスト
-  - 見出しとリンクテキスト
-  - ビデオ
-  - フローシステムの確立
-- **4: パターンごとの評価**
-  - 原則ごとの評価における問題点
-  - Custom ElementsとShadow DOM
-- **5: ナビゲーション領域**
-  - ナビゲーションランドマーク
-  - サイト内共通のナビゲーション
-  - 目次
-- **6: メニューボタン**
-  - 外観
-  - アイコンの表示方法
-  - ラベルづけ
-  - 古いブラウザ
-  - 操作
-  - タッチターゲット
-- **7: インクルーシブ・プロトタイピング**
-  - ペーパープロトタイピング
-  - 紙からコードへ
-- **8: 商品リスト**
-  - リストの長所
-  - カギとなる情報
-  - 商品サムネイル
-  - 「今すぐ購入」アクション
-  - SERP
-- **9: フィルターウィジェット**
-  - 見た目の例
-  - マークアップ
-  - CSSによる拡張
-  - JavaScriptによる拡張
-  - 検索結果をさらに読み込む
-  - 表示オプション
-  - 動的なコンテンツへの柔軟な対応
-- **10: 登録フォーム**
-  - コンテキストに応じたフォーム
-  - 基本フォーム
-  - 必須フィールド
-  - パスワードを表示する
-  - フォーム検証
-  - マイクロコピーライティング
-- **11: テスト駆動マークアップ**
-  - セレクタのロジック
-  - テスト駆動のタブインターフェイス
-  - 汎用的ではないがゆえに
-
-
-流行り廃りとかではない
-あらゆる人がインターネットで情報にアクセスできるように
-健康な人には関係ないというわけではない（このへんはアクセシビリティのPRを参考）
-表紙にあるように、「ダメ」ではなく「こうしよう！」（**そしてどういう理由・根拠で**）を学ぶ本と言えます。
-
-
-
-
-
-
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">査読をしているが、感動している</p>&mdash; keita kawamoto (@keita_kawamoto) <a href="https://twitter.com/keita_kawamoto/status/915932466388525056?ref_src=twsrc%5Etfw">2017年10月5日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+キャプチャ
