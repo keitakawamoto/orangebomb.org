@@ -84,7 +84,6 @@ Heydon Pickeringさん（[@heydonworks](https://twitter.com/heydonworks)） に�
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">査読をしているが、感動している</p>&mdash; keita kawamoto (@keita_kawamoto) <a href="https://twitter.com/keita_kawamoto/status/915932466388525056?ref_src=twsrc%5Etfw">2017年10月5日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 ## 本書の掲載内容
 
 実践的なラインナップがサンプルとあわせよりどりみどり。
@@ -156,7 +155,6 @@ Heydon Pickeringさん（[@heydonworks](https://twitter.com/heydonworks)） に�
   - セレクタのロジック
   - テスト駆動のタブインターフェイス
   - 汎用的ではないがゆえに
-
 
 ## 発売日
 
