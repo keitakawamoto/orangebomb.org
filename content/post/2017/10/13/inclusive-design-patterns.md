@@ -168,3 +168,7 @@ Heydon Pickeringさん（[@heydonworks](https://twitter.com/heydonworks)） に�
 ![クレジットに自分の名前が載っていた](/images/post/20171012inclusive-design-patterns/20171012inclusive-design-patterns_4.png)
 
 ムフフ。書籍に自分の名前が掲載されたのは初めてなので、めちゃくちゃ感激している。株式会社ボーンデジタルの[@orange_juno](https://twitter.com/orange_juno)さんをはじめ、みなさん、本当に感謝しています！
+
+## （追記）
+
+ブログを公開したのが `11/2` なのですが、記事のファイルを作成したのが `10/13` で、修正をし忘れ記事の日付が `10/13` のままになってしまっておりました。紛らわしくて申し訳n…
