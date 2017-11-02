@@ -1,7 +1,7 @@
 +++
 date = "2017-10-13"
 title = "インクルーシブ本の査読させていただいたら興奮した話"
-description = "　　　　　　　　　　　　"
+description = "Heydon Pickeringさん による著書 Inclusive Design Patterns の日本語化+充実の訳注付き版が「インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン」として発売されます。監訳はピンク本の著者であり、緑本の監訳者である太田良典さんと伊原力也さんのお二人。査読することになったきっかけと、どのような書籍であるか、一体何に興奮したのかのお話です。"
 tags = ["アクセシビリティ"]
 eyecatch = "/images/post/20171012inclusive-design-patterns/ogp.png"
 +++
