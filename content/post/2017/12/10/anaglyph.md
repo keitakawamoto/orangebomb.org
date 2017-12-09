@@ -90,7 +90,7 @@ eyecatch = "/images/post/20171209anaglyph/ogp.png"
 - [アナグリフはなぜ飛び出して見えるのか-立太子をテーマにした系統的学習の試み-](http://sucra.saitama-u.ac.jp/modules/xoonips/download.php/BKSJ500005.pdf?file_id=33164)
 - [How To Create Anaglyph 3D Images That Really Work!](https://blog.spoongraphics.co.uk/tutorials/how-to-create-anaglyph-3d-images-that-really-work)
 
-## 所管
+## 所感
 
 Photoshopのチュートリアル記事でした。いろいろ調べてみたものの、アナグリフのチュートリアルは少ないようだったので作成しました。このやり方以外にもっとよりよいやり方がある気がします。「アドオンを使う」などではなく、テクニックとしてもっといいやり方をご存知の方はぜひ教えてください。あと原理部分、解釈が誤っている場合もご指摘ください！
 
