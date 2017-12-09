@@ -10,11 +10,11 @@ eyecatch = "/images/post/20170804lolipop-rebranding/ogp.png"
 
 15年以上続いてきた老舗サービスを、生まれ変わらせる必要がある。そういう問題に直面し、福岡支社長・マネージャー・エンジニア・デザイナー・カスタマーサービス・インフラエンジニア・ディレクター・特別顧問という関係者全員が集い生まれ変わらせるプロジェクトを始動させました。
 
-結果開始からリリースまで１年ほどかかりました。デザイナーのひとりとして最初から最後まで携わった身として、共同主催でやったデザイン勉強会 [Design Casual Talks #2](https://dct.connpass.com/event/62061/) にて`僕の視点で見たロリポップ！リブランディング` というタイトルで発表しました。
+結果開始からリリースまで１年ほどかかりました。デザイナーのひとりとして最初から最後まで携わった身として、共同主催でやったデザイン勉強会 [Design Casual Talks #2](https://dct.connpass.com/event/62061/) にて「僕の視点で見たロリポップ！リブランディング」というタイトルで発表しました。
 
 15年以上ずっと大きな変化をすることができなかったサービスをどのように生まれ変わらせたのか？
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/dc3SsLViR6EpaY" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/key-78552405" title="僕の視点で見たロリポップ！リブランディング〜開始からリリースまで〜" target="_blank">僕の視点で見たロリポップ！リブランディング〜開始からリリースまで〜</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/keitakawamoto">Keita Kawamoto</a></strong> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dc3SsLViR6EpaY" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/key-78552405" title="僕の視点で見たロリポップ！リブランディング〜開始からリリースまで〜" target="_blank">僕の視点で見たロリポップ！リブランディング〜開始からリリースまで〜</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/keitakawamoto">Keita Kawamoto</a></strong>
 
 ## イベントの様子
 

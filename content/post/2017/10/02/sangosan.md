@@ -12,7 +12,7 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/IIK5y5fdEo9hin" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/ss-80337485" title="インターネットで 可能性をつなげる、ひろげる 〜ペパボ福岡デザインチーム〜" target="_blank">インターネットで 可能性をつなげる、ひろげる 〜ペパボ福岡デザインチーム〜</a> </strong> from <strong><a href="https://www.slideshare.net/keitakawamoto" target="_blank">Keita Kawamoto</a></strong>
 
-この僕の発表内容、 `レンタルサーバー` + `独自ドメイン` で作ったサイトが「拠点」に最適であるという話についてはこちらでも語られています。
+この発表内容に含まれていた「レンタルサーバー」+「独自ドメイン」で作ったサイトが「拠点」に最適であるという話についてはこちらでも語られています。
 
 - [人知れず世界を動かす「枯れた技術」の復権](https://newspicks.com/news/2050425/body/)
 - [変わるネットと個人の表現―クラウドで消耗しない世界](https://newspicks.com/news/2110532/body/)
@@ -23,10 +23,10 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 
 というスライドの文章に関して補足を。
 
-- 公式サイトなら `それの価値をさらに深掘りできる`
-- 公式サイトなら `それを生み出すに至るまでのエピソードを話せる`
-- 公式サイトなら `それに込めた想いを語れる`
-- 公式サイトなら `付加要素を紹介できる`
+- 公式サイトなら “それの価値をさらに深掘りできる”
+- 公式サイトなら “それを生み出すに至るまでのエピソードを話せる”
+- 公式サイトなら “それに込めた想いを語れる”
+- 公式サイトなら “付加要素を紹介できる”
 
 印刷物やSNSでは伝えきれなかったことを、サイトであれば思う存分伝えることができます。印刷物やSNSでの拡散によって興味を持った人がサイトを訪れ、想いに触れ、その結果ファンになる可能性が上がります。
 
@@ -34,7 +34,7 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 
 地元の方々が集まって、古民家の雰囲気も相まってまるで町内の集会のような雰囲気に。普段のイベントでは体験できないような状況で、興奮しました。
 
-ペパボメンバーは5人で参加しており、発表はそのうち僕を含め3名が行いました。ECに関する発表で[@teeeeeeoo](https://twitter.com/teeeeeeoo)、ハンドメイドに関する発表で[@shikakun](https://twitter.com/shikakun)が登壇しました。ペパボ以外では、ギフトで大人気の五島の蒲鉾を作っている[浜口水産さん](http://www.goto-maki.net/)による`浜口水産のデザインへの取り組み`、[五島の鯛で出汁をとったなんにでもあうカレー](http://curry.nagasakigoto.net/)の[ごと株式会社さん](https://nagasakigoto.net/)による `カレーのリデザインについて` 、さんごさんが開いているコーヒーショップ[CORAL COFFEE](https://twitter.com/353sangosan)について、さんごさんによる `CORAL COFFEEが目指すもの` という発表がありました。
+ペパボメンバーは5人で参加しており、発表はそのうち僕を含め3名が行いました。ECに関する発表で[@teeeeeeoo](https://twitter.com/teeeeeeoo)、ハンドメイドに関する発表で[@shikakun](https://twitter.com/shikakun)が登壇しました。ペパボ以外では、ギフトで大人気の五島の蒲鉾を作っている[浜口水産さん](http://www.goto-maki.net/)による「浜口水産のデザインへの取り組み」、[五島の鯛で出汁をとったなんにでもあうカレー](http://curry.nagasakigoto.net/)の[ごと株式会社さん](https://nagasakigoto.net/)による「カレーのリデザインについて」、さんごさんが開いているコーヒーショップ[CORAL COFFEE](https://twitter.com/353sangosan)について、さんごさんによる「CORAL COFFEEが目指すもの」xという発表がありました。
 
 詳しいレポートについては[ペパボテックブログ](https://tech.pepabo.com/)にて後日記事を公開予定です。
 
