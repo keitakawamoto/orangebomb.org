@@ -34,7 +34,7 @@ eyecatch = "/images/post/20171002sangosan/ogp.png"
 
 地元の方々が集まって、古民家の雰囲気も相まってまるで町内の集会のような雰囲気に。普段のイベントでは体験できないような状況で、興奮しました。
 
-ペパボメンバーは5人で参加しており、発表はそのうち僕を含め3名が行いました。ECに関する発表で[@teeeeeeoo](https://twitter.com/teeeeeeoo)、ハンドメイドに関する発表で[@shikakun](https://twitter.com/shikakun)が登壇しました。ペパボ以外では、ギフトで大人気の五島の蒲鉾を作っている[浜口水産さん](http://www.goto-maki.net/)による「浜口水産のデザインへの取り組み」、[五島の鯛で出汁をとったなんにでもあうカレー](http://curry.nagasakigoto.net/)の[ごと株式会社さん](https://nagasakigoto.net/)による「カレーのリデザインについて」、さんごさんが開いているコーヒーショップ[CORAL COFFEE](https://twitter.com/353sangosan)について、さんごさんによる「CORAL COFFEEが目指すもの」xという発表がありました。
+ペパボメンバーは5人で参加しており、発表はそのうち僕を含め3名が行いました。ECに関する発表で[@teeeeeeoo](https://twitter.com/teeeeeeoo)、ハンドメイドに関する発表で[@shikakun](https://twitter.com/shikakun)が登壇しました。ペパボ以外では、ギフトで大人気の五島の蒲鉾を作っている[浜口水産さん](http://www.goto-maki.net/)による「浜口水産のデザインへの取り組み」、[五島の鯛で出汁をとったなんにでもあうカレー](http://curry.nagasakigoto.net/)の[ごと株式会社さん](https://nagasakigoto.net/)による「カレーのリデザインについて」、さんごさんが開いているコーヒーショップ[CORAL COFFEE](https://twitter.com/353sangosan)について、さんごさんによる「CORAL COFFEEが目指すもの」という発表がありました。
 
 詳しいレポートについては[ペパボテックブログ](https://tech.pepabo.com/)にて後日記事を公開予定です。
 
