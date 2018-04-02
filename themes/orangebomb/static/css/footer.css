@@ -44,7 +44,8 @@
 }
 
 .author-bio {
-  margin: 0;
+  margin: 5px 0 0 0;
+  line-height: 170%;
 }
 
 @media screen and (max-width: 590px) {
@@ -53,9 +54,6 @@
   }
   .author-name {
     margin: 0 0 6px;
-  }
-  .author-bio {
-    line-height: 170%;
   }
 }
 
