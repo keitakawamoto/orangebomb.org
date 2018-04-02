@@ -26,7 +26,7 @@
 
 .author-image {
   position: absolute;
-  top: -5px;
+  top: -3px;
   left: 0;
   width: 45px;
   height: 45px;
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 590px) {
   .author-image {
-    top: 0;
+    top: -2px;
   }
   .author-name {
     margin: 0 0 6px;
