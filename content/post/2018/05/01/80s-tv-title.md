@@ -4,6 +4,7 @@ title: "Photoshopを使った80年代風のタイトル画像の作り方"
 description: "ジョークコンテンツ向けの、昔懐かしい80年代「風」のテレビタイトル画像を作成する手順を紹介します。"
 tags: ["チュートリアル","Photoshop"]
 eyecatch: "/images/post/2018050180s-tv-title/ogp.jpg"
+draft: true
 ---
 
 ![君はあの瞬間を音で覚えているか！チキチキ MCUサントラクイズ 最初で最後の劇伴バトル傑作青春編](/images/post/2018050180s-tv-title/ogp.jpg)
