@@ -7,7 +7,7 @@ build:
           apt-get update
           apt-get -y install git
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.40.2"
         theme: orangebomb
 deploy:
   steps:
