@@ -2,12 +2,6 @@ title        = "Orangebomb"
 baseurl      = "https://blog.orangebomb.org"
 languageCode = "ja-jp"
 
-[author]
-  Name = "keita_kawamoto"
-  Bio  = [
-    "UI, Graphic Designer. 「わからない」をなくす研究。HCD-Net認定 人間中心設計 准専門家。映画とFallout4が大好き。"
-  ]
-
 [permalinks]
   post = "/blog/:year/:month/:day/:filename/"
 
