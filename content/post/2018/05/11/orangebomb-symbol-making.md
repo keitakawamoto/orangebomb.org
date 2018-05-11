@@ -6,7 +6,7 @@ tags: ["メイキング"]
 eyecatch: "/images/post/20180511orangebomb-symbol-making/ogp.png"
 ---
 
-![](/images/post/20180511orangebomb-symbol-making/ogp.png)
+![このブログのシンボルマーク](/images/post/20180511orangebomb-symbol-making/ogp.png)
 
 > 今まで神秘のカーテンによって閉ざされていたデザインの工程を見せること。それは、デザイナーの仕事が重要であることを伝えるためではなく、デザインが抱える大きな課題解決に協力してもらうためにあります。
 
@@ -52,13 +52,13 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 オレンジ色の爆弾。そのまま形にした。微妙...塗りの印象が重いうえに、全部塗ってしまうと爆弾に見えない。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_01.png)
+![プロトタイプ1](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_01.png)
 
 ### プロトタイプ2：爆弾の種類変更
 
 「ボム」つながりでダイナマイトにしてみた。塗りが重い問題を軽減できたのでは。しかしなんかピンとこない。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_02.png)
+![プロトタイプ2](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_02.png)
 
 -  線が多すぎる
 -  ダイナマイトは縮小表示するには複雑め
@@ -69,7 +69,7 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 常套手段である「頭文字」パターン。`Orangebomb` の頭文字をシンボルにした。わりとよさげ？しかしまだ気に入らない。もうちょっと考えよう。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_03.png)
+![プロトタイプ3](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_03.png)
 
 - 塗りが重い問題は解決できていない
 - グラデーションつける？
@@ -78,7 +78,7 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 ここでレイアウト側のアップデート。ヘッダと本体を差別化するため、さりげなく白い帯を引くことにした。ロゴについてはベタ塗りが重かったので、まずそれをやめた。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_04.png)
+![プロトタイプ4](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_04.png)
 
 だがしかし課題は多い。
 
@@ -89,7 +89,7 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 まわりまわりめぐりめぐって
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_05.png)
+![プロトタイプ5](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_05.png)
 
 改良版のオレンジ色の爆弾に行き着いた。（この段階では果物にも見えるが）
 
@@ -107,7 +107,7 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 プロトタイプ検証で方向性は見えた。ここから磨きの工程に入る。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_06.png)
+![ブラッシュアップ1](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_06.png)
 
 - グラデーションをつけた
 - 導火線から火花をちらせた
@@ -135,16 +135,16 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 
 左が編集前、右が編集後。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_07.png)
+![ブラッシュアップ2](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_07.png)
 
 - **細さの問題が一番大きかった**
 - これまでは太すぎてぼってりしていた
 - このシャープさを追加したことで印象が良くなった
 - 導火線の火花の数も三つまでに減らしてシンプル化したら認識しやすくなってアイコンらしさが向上した
 
-サイトに設置したときも現時点では満足できるものになった。
+ブログに設置したときも現時点ではそこそこ満足できるものになった。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_08.png)
+![ブログに設置した様子](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_08.png)
 
 ### さらなるブラッシュアップ
 
@@ -153,12 +153,12 @@ Orangebomb（オレンジボム）というのがブログ名。そういう名�
 - 火花があるので、導火線まで本体から離れているとごちゃごちゃして見える。隙間を除去した。
 - さらに火花の色は別の色に変更し、「爆弾そのものとは別のもの」ということが認識しやすくなるようにした。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_09.png)
+![ブラッシュアップ3](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_09.png)
 
 ## 完成
 
 そうしてできあがったものがこちら。
 
-![](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_10.png)
+![完成品](/images/post/20180511orangebomb-symbol-making/20180511orangebomb-symbol-making_10.png)
 
 ブラッシュアップ時に違和感と出会い、その原因を探る過程がとても勉強になる事例だった。
