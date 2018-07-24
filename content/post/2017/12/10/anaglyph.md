@@ -2,7 +2,7 @@
 date = "2017-12-10"
 title = "Photoshopを使って一枚の画像でアナグリフ（3D画像）を作るチュートリアル"
 description = "アナグリフとは、「立体写真」のことです。ここではPhotoshopを利用して、一枚の写真を昔懐かしいアナグリフ方式の写真へ加工する手順を紹介します"
-tags = ["チュートリアル","Photoshop","3D","科学"]
+tags = ["チュートリアル","Photoshop","3D","科学/法則/効果"]
 eyecatch = "/images/post/20171210anaglyph/ogp.png"
 +++
 
