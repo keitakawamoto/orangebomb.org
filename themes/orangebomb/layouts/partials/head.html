@@ -21,8 +21,8 @@
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <!-- og images -->
   {{ if eq .URL "/" }}
-    <meta property="og:image" content="//blog.orangebomb.org/images/ogp.png">
-    <meta name="twitter:image" content="//blog.orangebomb.org/images/ogp.png">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/images/ogp.png">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/ogp.png">
   {{ else }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
     <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}">
