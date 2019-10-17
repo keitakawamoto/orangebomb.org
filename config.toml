@@ -6,7 +6,7 @@ languageCode = "ja-jp"
   post = "/blog/:year/:month/:day/:filename/"
 
 [params]
-  description = "@keita_kawamotoのブログ。デザインに関する記事を書いています。"
+  description = "@keita_kawamotoのブログ。学習していること研究していることに関わる記事を書いています。"
   Twitter = "keita_kawamoto"
   GitHub  = "keitakawamoto"
   Dribbble  = "keita_kawamoto"
