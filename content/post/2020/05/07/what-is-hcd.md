@@ -10,7 +10,6 @@ eyecatch: "/images/post/20200507what-is-hcd/ogp.png"
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ae7YQPep0TTVFo" width="595" height="371" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe> <strong> <a href="//www.slideshare.net/keitakawamoto/hcd-207201400" title="なぜなに人間中心設計（HCD）" target="_blank">なぜなに人間中心設計（HCD）</a> </strong> from <strong><a href="https://www.slideshare.net/keitakawamoto" target="_blank">Keita Kawamoto</a></strong>
 
-
 発表中、HCDサイクルの図のページの時に写真を撮っている人が何名かいたので「あとでアップするので安心してください〜」と伝えると「先に言ってw」というフランクなツッコミをいただきました。ホンマやでw その通りなので次回からは発表前の告知を忘れないようにしたい（このブログ記事は５ヶ月も経過して公開したが、スライドはイベント後すぐにアップしTwitterでシェアし有言実行を果たしている）。
 
 フレンドリーなツッコミを受けるのもこういうイベントの心地良さなんだよな〜、またリアルイベントで登壇したい。新型コロナが収束したら、リアルイベントの良さとリモートイベントの良さを両取りする新しい形態が生まれないだろうか？リアルに介した時の会場のインタラクションの速度・空気感が一番心地よいのは間違いないが、リモートの「住んでいる場所を選ばない」「小さなお子さんがいる家庭のクリエイターも参加しやすい」という良さはリアルイベントにはない。
