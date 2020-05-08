@@ -2,4 +2,4 @@
 
 ~My blog theme for Hugo.~
 
-以前までHugoでブログを生成、masterへマージするとworkerが検知し https://github.com/keitakawamoto/keitakawamoto.github.io へ反映、という仕様にしていたが、Hugo運用を中止したので現在はこれらのコードは利用されていない。（worker.ymlの中身を消し関係性を切った）
+以前までHugoでブログを生成、masterへマージするとworkerが検知し https://github.com/keitakawamoto/keitakawamoto.github.io へ反映、という仕様にしていたがHugo運用を中止したので現在はこれらのコードは利用していない。（ `worker.yml`の中身を消し関係性は切った）
